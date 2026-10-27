@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://github.com/Sachith-Asmadala">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1100&color=58A6FF&center=true&vCenter=true&width=720&height=40&lines=Computer+Science+Undergraduate+%40+SLIIT;Building+backend+systems+with+Spring+Boot;Exploring+RAG+and+AI-assisted+tools;Open+to+Software+Engineering+Internships" alt="Rotating introduction text"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1100&color=58A6FF&center=true&vCenter=true&width=720&height=40&lines=Computer+Science+Undergraduate+%40+SLIIT;Building+backend+systems+with+Spring+Boot+%26+.NET;Cloud+%26+Quality+Engineering+%7C+Azure+%2B+AWS;Exploring+RAG+and+AI-assisted+tools;Open+to+Software+Engineering+Internships" alt="Rotating introduction text"/>
 </a>
 
 <br/>
@@ -32,11 +32,34 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 | Languages | Backend | Frontend |
 |:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=java,py,c,js,ts&theme=dark" alt="Java, Python, C, JavaScript, TypeScript"/><br/><sub>Java · Python · C · JavaScript · TypeScript · SQL</sub> | <img src="https://skillicons.dev/icons?i=spring,fastapi&theme=dark" alt="Spring Boot, FastAPI"/><br/><sub>Spring Boot · REST APIs · FastAPI (exposure)</sub> | <img src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark" alt="React, HTML, CSS, Tailwind"/><br/><sub>React · HTML · CSS · Tailwind CSS</sub> |
+| <img src="https://skillicons.dev/icons?i=java,py,c,cs,js,ts&theme=dark" alt="Java, Python, C, C#, JavaScript, TypeScript"/><br/><sub>Java · Python · C · C# · JavaScript · TypeScript · SQL</sub> | <img src="https://skillicons.dev/icons?i=spring,dotnet,fastapi&theme=dark" alt="Spring Boot, ASP.NET Core, FastAPI"/><br/><sub>Spring Boot · ASP.NET Core · REST APIs · Microservices · FastAPI (exposure)</sub> | <img src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark" alt="React, HTML, CSS, Tailwind"/><br/><sub>React · HTML · CSS · Tailwind CSS</sub> |
 
-| Databases | AI | Development Tools |
+| Databases & Caching | Cloud & Deployment | AI & Data |
 |:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=postgres,mysql&theme=dark" alt="PostgreSQL, MySQL"/><br/><sub>PostgreSQL · MySQL</sub> | <img src="https://skillicons.dev/icons?i=py&theme=dark" alt="Python"/><br/><sub>RAG · LangChain · ChromaDB</sub> | <img src="https://skillicons.dev/icons?i=git,github,docker,maven,githubactions&theme=dark" alt="Git, GitHub, Docker, Maven, GitHub Actions"/><br/><sub>Git · Docker · Maven · GitHub Actions · JUnit · pytest</sub> |
+| <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,supabase,redis&theme=dark" alt="MySQL, PostgreSQL, MongoDB, Supabase, Redis"/><br/><sub>MySQL · PostgreSQL · MongoDB · Supabase · Redis</sub> | <img src="https://skillicons.dev/icons?i=azure,aws,vercel,docker&theme=dark" alt="Azure, AWS, Vercel, Docker"/><br/><sub>Azure · AWS · Vercel · Docker</sub> | <img src="https://skillicons.dev/icons?i=py&theme=dark" alt="Python"/><br/><sub>RAG · LangChain · ChromaDB · Agentic AI (exploring) · Data dashboards</sub> |
+
+| Messaging & Streaming | Monitoring & Observability |
+|:---:|:---:|
+| <img src="https://skillicons.dev/icons?i=kafka&theme=dark" alt="Apache Kafka"/><br/><sub>Apache Kafka · Event-driven services</sub> | <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Prometheus, Grafana"/><br/><sub>Prometheus · Grafana</sub> |
+
+</div>
+
+<div align="center">
+
+**Testing & Security**
+
+![Selenium](https://img.shields.io/badge/Selenium-161b22?style=for-the-badge&logo=selenium&logoColor=43B02A)
+![Postman](https://img.shields.io/badge/Postman-161b22?style=for-the-badge&logo=postman&logoColor=FF6C37)
+![JMeter](https://img.shields.io/badge/Apache%20JMeter-161b22?style=for-the-badge&logo=apachejmeter&logoColor=D22128)
+![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-161b22?style=for-the-badge&logo=owasp&logoColor=00549E)
+![JUnit](https://img.shields.io/badge/JUnit-161b22?style=for-the-badge&logo=junit5&logoColor=25A162)
+![pytest](https://img.shields.io/badge/pytest-161b22?style=for-the-badge&logo=pytest&logoColor=0A9EDC)
+
+<sub>Functional/UI automation · API testing · Load and performance testing · Security scanning</sub>
+
+**Development Tools**
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,maven&theme=dark" alt="Git, GitHub, GitHub Actions, Docker, Maven"/>
 
 </div>
 
@@ -76,7 +99,54 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
       <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---front-end"><img src="assets/project-sustain-insight.svg" alt="Illustration of a sustainability news feed and saved reading" width="100%"/></a>
       <p>A sustainability-focused news application combining article discovery, personalized feeds, and saved items across a React frontend and Spring Boot backend.</p>
       <p><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>React</code> <code>TypeScript</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---front-end"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---back-end"><b>Backend ↗</b></a>
+      <a href="https://sustain-insight-front-end.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---front-end"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---back-end"><b>Backend ↗</b></a>
+    </td>
+  </tr>
+</table>
+
+### More Work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧵 Textile &amp; Garment Management System</h4>
+      <p>A web-based system that centralizes supplier, product, inventory, order, production, and delivery operations, with real-time tracking and secure role-based access.</p>
+      <p><code>Java</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Web-Based-Textile-Garment-Management-System"><b>View repository ↗</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔬 ResearchTrack Backend <sub>· Collaborative</sub></h4>
+      <p>ASP.NET Core microservices backend covering authentication, project management, GitHub and Jira integrations, meeting management, submission workflows, and API gateway routing.</p>
+      <p><code>C#</code> <code>ASP.NET Core</code> <code>MySQL</code> <code>Microservices</code></p>
+      <a href="https://github.com/Sachith-Asmadala/researchtrack-backend"><b>View repository ↗</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Agentic AI for Infrastructure &amp; Delivery</h4>
+      <p>An LLM-powered autonomous agent for end-to-end DevOps workflows, handling infrastructure provisioning, continuous delivery, and system monitoring in place of static scripts.</p>
+      <p><code>Python</code> <code>Agentic AI</code> <code>DevOps</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI"><b>View repository ↗</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📈 Retail Sales &amp; Business Performance Dashboard</h4>
+      <p>A dashboard that helps a business understand its sales, customers, and product performance.</p>
+      <p><code>Python</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Retail-Sales-Business-Performance-Dashboard"><b>View repository ↗</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📨 Fault-Tolerant Distributed Messaging <sub>· Collaborative</sub></h4>
+      <p>A group project on designing a fault-tolerant distributed messaging system.</p>
+      <p><code>Distributed Systems</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Distributed_Systems_Group_30"><b>View repository ↗</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🎲 Yahtzee Retro Deluxe</h4>
+      <p>A fully functional terminal Yahtzee game in C, showcasing modular design and game-state management.</p>
+      <p><code>C</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Yahtzee-Retro-Deluxe"><b>View repository ↗</b></a>
     </td>
   </tr>
 </table>
@@ -107,7 +177,9 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 | | |
 |:---|:---|
 | **01** &nbsp; Backend engineering | **02** &nbsp; Full-stack systems |
-| **03** &nbsp; AI-assisted applications | **04** &nbsp; DevOps and automation |
+| **03** &nbsp; AI-assisted applications | **04** &nbsp; DevOps, monitoring, and agentic automation |
+| **05** &nbsp; Cloud (Azure, AWS) | **06** &nbsp; Software testing and security |
+| **07** &nbsp; Microservices, messaging, and distributed systems | **08** &nbsp; Data and analytics dashboards |
 
 </div>
 
