@@ -32,7 +32,7 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 | Languages | Backend | Frontend |
 |:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=java,py,c,cs,js,ts&theme=dark" alt="Java, Python, C, C#, JavaScript, TypeScript"/><br/><sub>Java · Python · C · C# · JavaScript · TypeScript · SQL</sub> | <img src="https://skillicons.dev/icons?i=spring,dotnet,fastapi&theme=dark" alt="Spring Boot, ASP.NET Core, FastAPI"/><br/><sub>Spring Boot · ASP.NET Core · REST APIs · Microservices · FastAPI (exposure)</sub> | <img src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark" alt="React, HTML, CSS, Tailwind"/><br/><sub>React · HTML · CSS · Tailwind CSS</sub> |
+| <img src="https://skillicons.dev/icons?i=java,py,c,cs,js,ts&theme=dark" alt="Java, Python, C, C#, JavaScript, TypeScript"/><br/><sub>Java · Python · C · C# · JavaScript · TypeScript · SQL</sub> | <img src="https://skillicons.dev/icons?i=spring,dotnet,fastapi&theme=dark" alt="Spring Boot, ASP.NET Core, FastAPI"/><br/><sub>Spring Boot · ASP.NET Core · REST APIs · Microservices · FastAPI (exposure)</sub> | <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" alt="React, Next.js, HTML, CSS, Tailwind"/><br/><sub>React · Next.js · HTML · CSS · Tailwind CSS</sub> |
 
 | Databases & Caching | Cloud & Deployment | AI & Data |
 |:---:|:---:|:---:|
