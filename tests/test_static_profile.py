@@ -29,16 +29,19 @@ README = """# Student Profile
 ## About Me
 Computer Science undergraduate.
 
-## Technical Skills
+## Technical Stack
 Developing practical programming skills.
 
-## Featured Projects
+## Featured Engineering Projects
 Selected coursework and applications.
+
+## Engineering Interests
+Backend and full-stack software.
 
 ## Currently Learning
 Algorithms and testing.
 
-## Contact and Opportunities
+## Let’s Connect
 Seeking an internship.
 """
 
@@ -70,7 +73,7 @@ class StaticProfileTests(unittest.TestCase):
         self.assertEqual(self.run_lint(README), 0)
 
     def test_static_readme_requires_its_sections(self):
-        self.assertEqual(self.run_lint(README.replace("## Technical Skills", "## Tools")), 1)
+        self.assertEqual(self.run_lint(README.replace("## Technical Stack", "## Tools")), 1)
 
     def test_static_readme_still_rejects_duplicate_headings(self):
         self.assertEqual(self.run_lint(README + "\n## About Me\nDuplicate.\n"), 1)
@@ -80,7 +83,7 @@ class StaticProfileTests(unittest.TestCase):
 
     def test_static_health_requires_sections(self):
         self.assertTrue(all(ok for _, ok, _ in health.check_readme(README, {"readme_mode": "static"})))
-        missing = README.replace("## Featured Projects", "## Work")
+        missing = README.replace("## Featured Engineering Projects", "## Work")
         self.assertTrue(any(not ok for _, ok, _ in health.check_readme(missing, {"readme_mode": "static"})))
 
     def test_dynamic_health_still_requires_markers(self):

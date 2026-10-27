@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" fill="none">
+  <rect width="640" height="180" rx="8" fill="#0B1120"/><path d="M0 36h640M0 72h640M0 108h640M0 144h640" stroke="#C7CDD5" stroke-opacity=".06"/>
+  <text x="24" y="25" fill="#BFA77A" font-family="monospace" font-size="10" letter-spacing="2">SUSTAIN INSIGHT / READING EXPERIENCE</text>
+  <rect x="46" y="50" width="548" height="99" rx="3" fill="#161D2B" stroke="#C7CDD5" stroke-opacity=".2"/>
+  <rect x="46" y="50" width="44" height="99" fill="#101827"/><text x="58" y="72" fill="#BFA77A" font-family="Georgia,serif" font-size="13">S.I</text><path d="M59 89h17M59 103h17M59 117h17" stroke="#C7CDD5" stroke-opacity=".5"/>
+  <text x="110" y="72" fill="#BFA77A" font-family="monospace" font-size="8" letter-spacing="1">A MORE CONSCIOUS BRIEFING</text>
+  <text x="110" y="103" fill="#F5F3EE" font-family="Georgia,serif" font-size="23">Ideas for a living world.</text>
+  <path d="M110 116h287" stroke="#C7CDD5" stroke-opacity=".18"/><rect x="110" y="124" width="22" height="16" fill="#839272"/><path d="M110 135l9-8 13 7" stroke="#BFA77A" stroke-opacity=".7"/>
+  <text x="143" y="132" fill="#C7CDD5" font-family="Arial,sans-serif" font-size="8">Climate · Cities · Sustainable living</text>
+  <rect x="450" y="64" width="121" height="70" rx="2" fill="#0B1120" stroke="#BFA77A" stroke-opacity=".4"/><text x="463" y="82" fill="#BFA77A" font-family="monospace" font-size="8">YOUR READING</text><path d="M463 91h95" stroke="#C7CDD5" stroke-opacity=".15"/><text x="463" y="108" fill="#C7CDD5" font-family="Arial,sans-serif" font-size="9">Saved stories</text><text x="463" y="124" fill="#A5ADBA" font-family="Arial,sans-serif" font-size="9">Personalized feed</text>
+</svg>

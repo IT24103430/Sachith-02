@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" fill="none">
+  <rect width="640" height="180" rx="8" fill="#0B1120"/><path d="M0 36h640M0 72h640M0 108h640M0 144h640" stroke="#C7CDD5" stroke-opacity=".06"/>
+  <text x="24" y="25" fill="#BFA77A" font-family="monospace" font-size="10" letter-spacing="2">LIBRACORE / API LAYERS</text>
+  <rect x="38" y="61" width="116" height="67" rx="3" fill="#161D2B" stroke="#C7CDD5" stroke-opacity=".25"/><text x="96" y="88" text-anchor="middle" fill="#F5F3EE" font-family="monospace" font-size="10">REST API</text><text x="96" y="108" text-anchor="middle" fill="#A5ADBA" font-family="monospace" font-size="8">REQUEST</text>
+  <path d="M154 95h43" stroke="#BFA77A"/>
+  <rect x="197" y="51" width="247" height="87" rx="3" fill="#161D2B" stroke="#BFA77A" stroke-opacity=".7"/><text x="320" y="72" text-anchor="middle" fill="#BFA77A" font-family="monospace" font-size="10">SPRING BOOT</text>
+  <rect x="216" y="83" width="94" height="36" rx="2" fill="#0B1120" stroke="#C7CDD5" stroke-opacity=".2"/><rect x="330" y="83" width="94" height="36" rx="2" fill="#0B1120" stroke="#C7CDD5" stroke-opacity=".2"/>
+  <text x="263" y="105" text-anchor="middle" fill="#C7CDD5" font-family="monospace" font-size="8">SECURITY</text><text x="377" y="105" text-anchor="middle" fill="#C7CDD5" font-family="monospace" font-size="8">SERVICES</text>
+  <path d="M444 95h42" stroke="#BFA77A"/>
+  <rect x="486" y="61" width="116" height="67" rx="3" fill="#161D2B" stroke="#C7CDD5" stroke-opacity=".25"/><ellipse cx="544" cy="78" rx="28" ry="9" stroke="#BFA77A"/><path d="M516 78v30c0 5 13 9 28 9s28-4 28-9V78M516 93c0 5 13 9 28 9s28-4 28-9" stroke="#BFA77A"/>
+  <text x="544" y="137" text-anchor="middle" fill="#C7CDD5" font-family="monospace" font-size="8">MYSQL</text>
+</svg>

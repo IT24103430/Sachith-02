@@ -69,7 +69,14 @@ def check_readme(readme_text: str, config: Dict) -> List[Tuple[str, bool, str]]:
     if config.get("readme_mode") != "static":
         return check_markers(readme_text)
     headings = {line.strip() for line in readme_text.splitlines() if line.startswith("## ")}
-    sections = ["About Me", "Technical Skills", "Featured Projects", "Currently Learning", "Contact and Opportunities"]
+    sections = [
+        "About Me",
+        "Technical Stack",
+        "Featured Engineering Projects",
+        "Engineering Interests",
+        "Currently Learning",
+        "Let’s Connect",
+    ]
     return [
         (f"README section `{section}`", f"## {section}" in headings, "Required static profile section")
         for section in sections

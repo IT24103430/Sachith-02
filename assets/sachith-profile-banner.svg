@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <rect width="1200" height="340" rx="18" fill="#0B1120"/>
+  <path d="M792 0h408v340H792z" fill="#101827"/>
+  <path d="M792 28h352M792 58h352M792 88h352M792 118h352M792 148h352M792 178h352M792 208h352M792 238h352M792 268h352M792 298h352" stroke="#C7CDD5" stroke-opacity=".045"/>
+  <path d="M832 0v340M872 0v340M912 0v340M952 0v340M992 0v340M1032 0v340M1072 0v340M1112 0v340" stroke="#C7CDD5" stroke-opacity=".045"/>
+  <path d="M56 44h52" stroke="#BFA77A" stroke-width="2"/>
+  <text x="56" y="73" fill="#C7CDD5" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">SLIIT · SRI LANKA</text>
+  <text x="55" y="169" fill="#F5F3EE" font-family="Georgia, 'Times New Roman', serif" font-size="84" letter-spacing="-2">Sachith Asmadala</text>
+  <text x="58" y="211" fill="#C7CDD5" font-family="Arial, sans-serif" font-size="24" letter-spacing=".2">Computer Science Undergraduate | Software Engineering</text>
+  <path d="M58 248h440" stroke="#BFA77A" stroke-opacity=".6"/>
+  <rect x="890" y="62" width="230" height="216" rx="3" fill="#0B1120" stroke="#BFA77A" stroke-opacity=".65"/>
+  <path d="M906 78h198M906 262h198" stroke="#BFA77A" stroke-opacity=".35"/>
+  <text x="1005" y="194" text-anchor="middle" fill="#F5F3EE" font-family="Georgia, 'Times New Roman', serif" font-size="86" letter-spacing="-8">SA</text>
+  <circle cx="1090" cy="102" r="4" fill="#BFA77A"/>
+  <text x="1005" y="231" text-anchor="middle" fill="#A5ADBA" font-family="monospace" font-size="9" letter-spacing="2">SOFTWARE ENGINEERING</text>
+  <path d="M1150 52v236" stroke="#BFA77A" stroke-opacity=".45"/>
+  <circle cx="1150" cy="52" r="3" fill="#BFA77A"/><circle cx="1150" cy="288" r="3" fill="#BFA77A"/>
+</svg>

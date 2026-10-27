@@ -15,10 +15,11 @@ CONFIG = ROOT / "profile.config.json"
 
 STATIC_SECTIONS = [
     "About Me",
-    "Technical Skills",
-    "Featured Projects",
+    "Technical Stack",
+    "Featured Engineering Projects",
+    "Engineering Interests",
     "Currently Learning",
-    "Contact and Opportunities",
+    "Let’s Connect",
 ]
 
 REQUIRED_SECTIONS = [
