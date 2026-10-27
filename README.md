@@ -71,6 +71,15 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3>🌙 LumaPath AI</h3>
+      <a href="https://lumapath-kappa.vercel.app"><img src="assets/project-lumapath-ai.svg" alt="Illustration of LumaPath AI feature areas: AI mentoring, journaling, mood tracking, study planning, career roadmaps and smart reminders" width="100%"/></a>
+      <p>An AI-powered student life guidance platform that helps university students manage academic pressure, emotional wellness, productivity, career planning, and internship preparation through personalized AI mentoring, journaling, mood tracking, study planning, career roadmaps, and smart reminders.</p>
+      <p><code>TypeScript</code> <code>Next.js</code> <code>Vercel</code></p>
+      <a href="https://lumapath-kappa.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/LumaPath-AI"><b>View repository ↗</b></a>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🧠 Knowledge Studio</h3>
       <a href="https://github.com/Sachith-Asmadala/Knowledge-Studio"><img src="assets/project-knowledge-studio.svg" alt="Diagram of a document retrieval and grounded answer workflow" width="100%"/></a>
@@ -115,10 +124,10 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
       <a href="https://github.com/Sachith-Asmadala/Web-Based-Textile-Garment-Management-System"><b>View repository ↗</b></a>
     </td>
     <td width="50%" valign="top">
-      <h4>🔬 ResearchTrack Backend <sub>· Collaborative</sub></h4>
-      <p>ASP.NET Core microservices backend covering authentication, project management, GitHub and Jira integrations, meeting management, submission workflows, and API gateway routing.</p>
-      <p><code>C#</code> <code>ASP.NET Core</code> <code>MySQL</code> <code>Microservices</code></p>
-      <a href="https://github.com/Sachith-Asmadala/researchtrack-backend"><b>View repository ↗</b></a>
+      <h4>🔬 ResearchTrack <sub>· Collaborative</sub></h4>
+      <p>A research project management platform. An ASP.NET Core microservices backend handles authentication, project management, GitHub and Jira integrations, meetings, submission workflows, and API gateway routing. A React frontend gives students and supervisors unified dashboards for projects, GitHub activity, Jira progress, meetings, and submissions.</p>
+      <p><code>C#</code> <code>ASP.NET Core</code> <code>Microservices</code> <code>MySQL</code> <code>React</code></p>
+      <a href="https://github.com/Sachith-Asmadala/researchtrack-web"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/researchtrack-backend"><b>Backend ↗</b></a>
     </td>
   </tr>
   <tr>
