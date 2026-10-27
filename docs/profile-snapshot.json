@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-27T08:23:23.292971+00:00",
-  "username": "Sachith-02",
+  "generated_at": "2026-10-27T19:32:42.286024+00:00",
+  "username": "Sachith-Asmadala",
   "display_name": "Sachith Asmadala",
-  "headline": "Backend Engineer | Java \u00b7 Spring Boot \u00b7 Distributed Systems",
-  "readme_bytes": 28628,
+  "headline": "Computer Science Undergraduate | Seeking a Software Engineering Internship",
+  "readme_bytes": 2552,
   "configured_workflows": 6,
   "workflow_files": [
     ".github/workflows/ai-generated-ci.yml",
@@ -30,21 +30,7 @@
     "Recent Activity",
     "Architecture"
   ],
-  "marker_counts": {
-    "ABOUT_ME": 1,
-    "FOCUS_AREAS": 1,
-    "PROFILE_SUMMARY": 1,
-    "ENGINEERING_MATRIX": 1,
-    "LANGUAGE_SUMMARY": 1,
-    "PROJECT_STATUS": 1,
-    "FEATURED_PROJECTS": 1,
-    "PROJECTS": 1,
-    "REPO_HEALTH": 1,
-    "ACTIVITY": 1,
-    "AUTOMATION_ARCHITECTURE": 1,
-    "ACTIONS_DASHBOARD": 1,
-    "ROADMAP": 1
-  },
+  "marker_counts": {},
   "local_svg_assets": [
     "assets/automation-workflow.svg",
     "assets/engineering-matrix.svg",
