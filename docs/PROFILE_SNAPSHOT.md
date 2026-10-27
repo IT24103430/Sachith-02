@@ -1,14 +1,14 @@
 # Profile Snapshot
 
-Generated: **2026-10-27T22:22:08.194714+00:00**
+Generated: **2026-10-27T22:29:44.873656+00:00**
 
 | Item | Value |
 |---|---:|
-| README size | 13506 bytes |
+| README size | 14601 bytes |
 | Configured workflows | 6 |
 | Workflow files | 12 |
 | Dynamic markers | 0 |
-| Local SVG assets | 13 |
+| Local SVG assets | 14 |
 
 ## Workflow inventory
 
@@ -30,6 +30,7 @@ Generated: **2026-10-27T22:22:08.194714+00:00**
 - `assets/portfolio-roadmap.svg`
 - `assets/profile-banner.svg`
 - `assets/profile-layers.svg`
+- `assets/project-agentic-devops.svg`
 - `assets/project-knowledge-studio.svg`
 - `assets/project-libracore.svg`
 - `assets/project-lumapath-ai.svg`
