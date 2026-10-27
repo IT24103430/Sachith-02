@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" fill="none">
+  <rect width="640" height="180" rx="8" fill="#0B1120"/><path d="M0 36h640M0 72h640M0 108h640M0 144h640" stroke="#C7CDD5" stroke-opacity=".06"/>
+  <text x="24" y="25" fill="#BFA77A" font-family="monospace" font-size="10" letter-spacing="2">KNOWLEDGE STUDIO / DOCUMENT FLOW</text>
+  <rect x="36" y="60" width="142" height="72" rx="3" fill="#161D2B" stroke="#C7CDD5" stroke-opacity=".2"/><path d="M52 77h27l10 10v28H52z" stroke="#BFA77A"/><path d="M79 77v11h10M58 99h24M58 106h18" stroke="#C7CDD5" stroke-opacity=".7"/>
+  <text x="103" y="154" text-anchor="middle" fill="#C7CDD5" font-family="Arial,sans-serif" font-size="10">PDF DOCUMENT</text>
+  <path d="M178 96h70" stroke="#BFA77A"/><circle cx="213" cy="96" r="3" fill="#BFA77A"/>
+  <rect x="248" y="60" width="142" height="72" rx="3" fill="#161D2B" stroke="#BFA77A" stroke-opacity=".75"/><circle cx="283" cy="91" r="12" stroke="#BFA77A"/><path d="M292 100l10 10M305 82h65M305 92h50M305 102h58" stroke="#C7CDD5" stroke-opacity=".65"/>
+  <text x="319" y="154" text-anchor="middle" fill="#C7CDD5" font-family="Arial,sans-serif" font-size="10">RETRIEVAL</text>
+  <path d="M390 96h70" stroke="#BFA77A"/><circle cx="425" cy="96" r="3" fill="#BFA77A"/>
+  <rect x="460" y="60" width="142" height="72" rx="3" fill="#161D2B" stroke="#C7CDD5" stroke-opacity=".2"/><path d="M476 78h108v38H476z" stroke="#C7CDD5" stroke-opacity=".4"/><path d="M486 89h66M486 98h87M486 107h50" stroke="#BFA77A" stroke-opacity=".8"/>
+  <text x="531" y="154" text-anchor="middle" fill="#C7CDD5" font-family="Arial,sans-serif" font-size="10">GROUNDED ANSWER</text>
+</svg>

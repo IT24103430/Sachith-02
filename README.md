@@ -1,57 +1,93 @@
-# Sachith Asmadala — Portfolio
+<div align="center">
+  <img src="assets/sachith-profile-banner.svg" alt="Sachith Asmadala — Computer Science undergraduate at SLIIT, focused on software engineering" />
+</div>
 
-A responsive personal portfolio for Sachith Asmadala, a third-year Computer Science undergraduate at SLIIT seeking a Software Engineering Internship. The site presents selected individual, coursework, and collaborative projects with an understated midnight navy and warm ivory visual system.
+<div align="center">
+  <a href="https://github.com/Sachith-Asmadala">GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/sachith-asmadala-3b185a333/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <strong>Open to Software Engineering Internship opportunities</strong>
+</div>
 
-## Technology
+## About Me
 
-- React 18 and TypeScript
-- Vite
-- Lucide React icons
-- Custom CSS, with no component or animation framework
+Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lanka Institute of Information Technology (SLIIT). I’m exploring software engineering through backend systems, full-stack applications, and intelligent developer tools. My coursework and personal projects are helping me build practical experience while I strengthen the fundamentals behind reliable software.
 
-## Requirements
+## Technical Stack
 
-- Node.js 20.19+ (or 22.12+)
-- npm
+Technologies I’ve used in projects and coursework; familiarity varies by project.
 
-## Local development
+<table>
+  <tr>
+    <td width="50%" valign="top"><strong>Languages</strong><br/>Java · Python · C · JavaScript · TypeScript · SQL</td>
+    <td width="50%" valign="top"><strong>Backend</strong><br/>Spring Boot · REST APIs · FastAPI (exposure)</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><strong>Frontend</strong><br/>React · HTML · CSS · Tailwind CSS</td>
+    <td width="50%" valign="top"><strong>Databases</strong><br/>PostgreSQL · MySQL</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><strong>AI</strong><br/>Retrieval-Augmented Generation (RAG) · LangChain · ChromaDB</td>
+    <td width="50%" valign="top"><strong>Development Tools</strong><br/>Git · GitHub · Docker · Maven · GitHub Actions · JUnit · pytest</td>
+  </tr>
+</table>
 
-```bash
-npm install
-npm run dev
-```
+## Featured Engineering Projects
 
-Vite prints the local address after the development server starts.
+Selected individual, coursework, and collaborative work. The diagrams below are original project illustrations, not screenshots.
 
-## Production build
+### Knowledge Studio
 
-```bash
-npm run build
-npm run preview
-```
+<img src="assets/project-knowledge-studio.svg" alt="Diagram of a document retrieval and grounded answer workflow" />
 
-The static production site is written to `dist/`.
+Ask questions about lecture PDFs, inspect retrieved source passages, and create structured summaries with a persistent document index.
 
-## Deployment
+**Python · Streamlit · LangChain · ChromaDB · HuggingFace · Groq** &nbsp;·&nbsp; [View repository ↗](https://github.com/Sachith-Asmadala/Knowledge-Studio)
 
-The project includes `vercel.json` configured for Vite. Import this repository in Vercel and use the detected project settings, or set the build command to `npm run build` and the output directory to `dist`. No server environment variables are required.
+### LibraCore
 
-For GitHub Pages, set the Vite `base` option to `/<repository-name>/`, build, then publish the `dist/` directory using GitHub Pages. Use `/` as the base when serving from a custom domain or the `username.github.io` root repository.
+<img src="assets/project-libracore.svg" alt="Diagram of the LibraCore library API layers" />
 
-## Portfolio content customization
+A library and asset management API with catalog search, circulation workflows, JWT role security, and ISBN validation through a native C/JNI module.
 
-Project descriptions, repository links, and skill groups live in [`src/data/portfolio.ts`](src/data/portfolio.ts). The page sections and their layout live in [`src/App.tsx`](src/App.tsx), with responsive styling and design tokens in [`src/styles.css`](src/styles.css). Keep descriptions aligned with verified project functionality and distinguish collaborative work from individual contributions.
+**Java 21 · Spring Boot 3 · MySQL · Flyway · Docker** &nbsp;·&nbsp; [View repository ↗](https://github.com/Sachith-Asmadala/LibraCore)
 
-## Images and visual assets
+### TaskLang++
 
-The portfolio currently uses original CSS and React illustrations for project previews; it does not present them as screenshots. Replace or supplement these visuals with real project screenshots by adding optimized images to `public/` and updating the project visual component in `src/App.tsx`. Use descriptive alt text and only include images you have permission to publish. No portrait is assumed.
+<img src="assets/project-tasklang.svg" alt="TaskLang lexer and parser validating a task definition" />
 
-The SA favicon is at `public/favicon.svg`. The social sharing image is `public/og-card.svg`.
+A coursework DSL for describing scheduled tasks and dependencies. Its parser validates workflows and simulates execution order; it does not run operating-system commands.
 
-## Résumé
+**C · Flex · Bison** &nbsp;·&nbsp; [View repository ↗](https://github.com/Sachith-Asmadala/TaskLang)
 
-No résumé file was present when this portfolio was prepared, so the site does not show a download link. To add one later, place the verified PDF in `public/` and add a clearly labeled link to it in the hero or contact section.
+### Sustain Insight <sub>· Collaborative</sub>
 
-## Existing profile automation
+<img src="assets/project-sustain-insight.svg" alt="Illustration of a sustainability news feed and saved reading" />
 
-This repository also contains the existing GitHub profile automation under `.github/`, `docs/`, `assets/`, and `tests/`. Its static README mode keeps this document unchanged when the profile update workflow runs.
+A sustainability-focused news application combining article discovery, personalized feeds, and saved items across a React frontend and Spring Boot backend.
+
+**Java · Spring Boot · PostgreSQL · React · TypeScript** &nbsp;·&nbsp; [Frontend ↗](https://github.com/Sachith-Asmadala/Sustain-Insight---front-end) · [Backend ↗](https://github.com/Sachith-Asmadala/Sustain-Insight---back-end)
+
+## Engineering Interests
+
+<table>
+  <tr>
+    <td width="50%"><strong>01</strong> &nbsp; Backend engineering</td>
+    <td width="50%"><strong>02</strong> &nbsp; Full-stack systems</td>
+  </tr>
+  <tr>
+    <td width="50%"><strong>03</strong> &nbsp; AI-assisted applications</td>
+    <td width="50%"><strong>04</strong> &nbsp; DevOps and automation</td>
+  </tr>
+</table>
+
+## Currently Learning
+
+Developing further in **data structures and algorithms**, **problem-solving**, **software testing**, and **backend engineering** through coursework and project practice.
+
+## Let’s Connect
+
+I’m open to Software Engineering Internship opportunities and conversations about building useful software.
+
+**[GitHub](https://github.com/Sachith-Asmadala)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)**
+
+<div align="center"><sub>Sachith Asmadala · Computer Science Undergraduate · SLIIT, Sri Lanka</sub></div>
