@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="assets/banner-animated.svg" alt="Sachith Asmadala — Computer Science undergraduate at SLIIT, focused on software engineering" width="100%"/>
+<img src="assets/banner-animated.svg" alt="Sachith Asmadala — Computer Science undergraduate at SLIIT, focused on DevOps, software engineering and AI/ML" width="100%"/>
 
 <br/>
 
 <a href="https://github.com/Sachith-Asmadala">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1100&color=58A6FF&center=true&vCenter=true&width=720&height=40&lines=Computer+Science+Undergraduate+%40+SLIIT;Building+backend+systems+with+Spring+Boot+%26+.NET;Cloud+%26+Quality+Engineering+%7C+Azure+%2B+AWS;Exploring+RAG+and+AI-assisted+tools;Open+to+Software+Engineering+Internships" alt="Rotating introduction text"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1100&color=58A6FF&center=true&vCenter=true&width=760&height=40&lines=Computer+Science+Undergraduate+%40+SLIIT;DevOps%2C+Cloud+%26+Automation+%7C+Docker%2C+Azure%2C+AWS;Backend+Engineering+with+Spring+Boot+%26+.NET;AI%2FML%3A+RAG+%26+Agentic+AI;Open+to+DevOps%2C+SE+%26+AI%2FML+Internships" alt="Rotating introduction text"/>
 </a>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
 [![GitHub](https://img.shields.io/badge/GitHub-Sachith--Asmadala-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sachith-Asmadala)
-![Status](https://img.shields.io/badge/Open%20to-Internships-2ea043?style=for-the-badge)
+![Status](https://img.shields.io/badge/Open%20to-DevOps%20%7C%20SE%20%7C%20AI%2FML%20Internships-2ea043?style=for-the-badge)
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -20,7 +20,20 @@
 
 ## About Me
 
-Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lanka Institute of Information Technology (SLIIT). I’m exploring software engineering through backend systems, full-stack applications, and intelligent developer tools. My coursework and personal projects are helping me build practical experience while I strengthen the fundamentals behind reliable software.
+Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lanka Institute of Information Technology (SLIIT). I’m building toward internships in **DevOps**, **software engineering**, and **AI/ML**, with hands-on work in backend systems, full-stack applications, cloud tooling, and AI-assisted products. My coursework and personal projects are helping me build practical experience while I strengthen the fundamentals behind reliable software.
+
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
+
+## Focus Areas
+
+<div align="center">
+
+| | DevOps | Software Engineering | AI / ML |
+|:---|:---:|:---:|:---:|
+| **Tools** | Docker · GitHub Actions · Azure · AWS · Prometheus · Grafana · Kafka | Java · Spring Boot · C# · ASP.NET Core · React · Next.js | Python · RAG · LangChain · ChromaDB · Agentic AI |
+| **Projects** | [Agentic AI for DevOps](https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · [LibraCore](https://github.com/Sachith-Asmadala/LibraCore) (Dockerized) | [LibraCore](https://github.com/Sachith-Asmadala/LibraCore) · [ResearchTrack](https://github.com/Sachith-Asmadala/researchtrack-backend) · [Textile System](https://github.com/Sachith-Asmadala/Web-Based-Textile-Garment-Management-System) | [Knowledge Studio](https://github.com/Sachith-Asmadala/Knowledge-Studio) · [LumaPath AI](https://github.com/Sachith-Asmadala/LumaPath-AI) |
+
+</div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
@@ -30,21 +43,17 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 <div align="center">
 
-| Languages | Backend | Frontend |
+| Languages | Backend & APIs | AI / ML |
 |:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=java,py,c,cs,js,ts&theme=dark" alt="Java, Python, C, C#, JavaScript, TypeScript"/><br/><sub>Java · Python · C · C# · JavaScript · TypeScript · SQL</sub> | <img src="https://skillicons.dev/icons?i=spring,dotnet,fastapi&theme=dark" alt="Spring Boot, ASP.NET Core, FastAPI"/><br/><sub>Spring Boot · ASP.NET Core · REST APIs · Microservices · FastAPI (exposure)</sub> | <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" alt="React, Next.js, HTML, CSS, Tailwind"/><br/><sub>React · Next.js · HTML · CSS · Tailwind CSS</sub> |
+| <img src="https://skillicons.dev/icons?i=java,py,c,cs,js,ts&theme=dark" alt="Java, Python, C, C#, JavaScript, TypeScript"/><br/><sub>Java · Python · C · C# · JavaScript · TypeScript · SQL</sub> | <img src="https://skillicons.dev/icons?i=spring,dotnet,fastapi&theme=dark" alt="Spring Boot, ASP.NET Core, FastAPI"/><br/><sub>Spring Boot · ASP.NET Core · REST APIs · Microservices · FastAPI (exposure)</sub> | <img src="https://skillicons.dev/icons?i=py&theme=dark" alt="Python"/><br/><sub>RAG · LangChain · ChromaDB · Agentic AI (exploring) · Data dashboards</sub> |
 
-| Databases & Caching | Cloud & Deployment | AI & Data |
+| DevOps & Cloud | Observability & Messaging | Databases & Caching |
 |:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,supabase,redis&theme=dark" alt="MySQL, PostgreSQL, MongoDB, Supabase, Redis"/><br/><sub>MySQL · PostgreSQL · MongoDB · Supabase · Redis</sub> | <img src="https://skillicons.dev/icons?i=azure,aws,vercel,docker&theme=dark" alt="Azure, AWS, Vercel, Docker"/><br/><sub>Azure · AWS · Vercel · Docker</sub> | <img src="https://skillicons.dev/icons?i=py&theme=dark" alt="Python"/><br/><sub>RAG · LangChain · ChromaDB · Agentic AI (exploring) · Data dashboards</sub> |
+| <img src="https://skillicons.dev/icons?i=docker,githubactions,azure,aws,vercel&theme=dark" alt="Docker, GitHub Actions, Azure, AWS, Vercel"/><br/><sub>Docker · GitHub Actions · CI/CD · Azure · AWS · Vercel</sub> | <img src="https://skillicons.dev/icons?i=prometheus,grafana,kafka&theme=dark" alt="Prometheus, Grafana, Kafka"/><br/><sub>Prometheus · Grafana · Apache Kafka</sub> | <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,supabase,redis&theme=dark" alt="MySQL, PostgreSQL, MongoDB, Supabase, Redis"/><br/><sub>MySQL · PostgreSQL · MongoDB · Supabase · Redis</sub> |
 
-| Messaging & Streaming | Monitoring & Observability |
+| Frontend | Development Tools |
 |:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=kafka&theme=dark" alt="Apache Kafka"/><br/><sub>Apache Kafka · Event-driven services</sub> | <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Prometheus, Grafana"/><br/><sub>Prometheus · Grafana</sub> |
-
-</div>
-
-<div align="center">
+| <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" alt="React, Next.js, HTML, CSS, Tailwind"/><br/><sub>React · Next.js · HTML · CSS · Tailwind CSS</sub> | <img src="https://skillicons.dev/icons?i=git,github,maven&theme=dark" alt="Git, GitHub, Maven"/><br/><sub>Git · GitHub · Maven · JUnit · pytest</sub> |
 
 **Testing & Security**
 
@@ -57,10 +66,6 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 <sub>Functional/UI automation · API testing · Load and performance testing · Security scanning</sub>
 
-**Development Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,maven&theme=dark" alt="Git, GitHub, GitHub Actions, Docker, Maven"/>
-
 </div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
@@ -71,44 +76,39 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 <table>
   <tr>
-    <td colspan="2" valign="top">
-      <h3>🌙 LumaPath AI</h3>
-      <a href="https://lumapath-kappa.vercel.app"><img src="assets/project-lumapath-ai.svg" alt="Illustration of LumaPath AI feature areas: AI mentoring, journaling, mood tracking, study planning, career roadmaps and smart reminders" width="100%"/></a>
-      <p>An AI-powered student life guidance platform that helps university students manage academic pressure, emotional wellness, productivity, career planning, and internship preparation through personalized AI mentoring, journaling, mood tracking, study planning, career roadmaps, and smart reminders.</p>
-      <p><code>TypeScript</code> <code>Next.js</code> <code>Vercel</code></p>
-      <a href="https://lumapath-kappa.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/LumaPath-AI"><b>View repository ↗</b></a>
+    <td width="50%" valign="top">
+      <h3>📚 LibraCore</h3>
+      <sub>Software Engineering · DevOps</sub>
+      <a href="https://github.com/Sachith-Asmadala/LibraCore"><img src="assets/project-libracore.svg" alt="Diagram of the LibraCore library API layers" width="100%"/></a>
+      <p>A library and asset management API with catalog search, circulation workflows, JWT role security, and ISBN validation through a native C/JNI module. Containerized with Docker.</p>
+      <p><code>Java 21</code> <code>Spring Boot 3</code> <code>MySQL</code> <code>Flyway</code> <code>Docker</code></p>
+      <a href="https://github.com/Sachith-Asmadala/LibraCore"><b>View repository ↗</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 Agentic AI for Infrastructure &amp; Delivery</h3>
+      <sub>DevOps · AI</sub>
+      <a href="https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI"><img src="assets/project-agentic-devops.svg" alt="Diagram of an LLM agent orchestrating provisioning, delivery and monitoring" width="100%"/></a>
+      <p>An LLM-powered autonomous agent for end-to-end DevOps workflows. It replaces static scripts with agentic AI to handle infrastructure provisioning, continuous delivery, and system monitoring.</p>
+      <p><code>Python</code> <code>Agentic AI</code> <code>DevOps</code> <code>LLM</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI"><b>View repository ↗</b></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 Knowledge Studio</h3>
+      <sub>AI / ML</sub>
       <a href="https://github.com/Sachith-Asmadala/Knowledge-Studio"><img src="assets/project-knowledge-studio.svg" alt="Diagram of a document retrieval and grounded answer workflow" width="100%"/></a>
       <p>Ask questions about lecture PDFs, inspect retrieved source passages, and create structured summaries with a persistent document index.</p>
       <p><code>Python</code> <code>Streamlit</code> <code>LangChain</code> <code>ChromaDB</code> <code>HuggingFace</code> <code>Groq</code></p>
       <a href="https://github.com/Sachith-Asmadala/Knowledge-Studio"><b>View repository ↗</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>📚 LibraCore</h3>
-      <a href="https://github.com/Sachith-Asmadala/LibraCore"><img src="assets/project-libracore.svg" alt="Diagram of the LibraCore library API layers" width="100%"/></a>
-      <p>A library and asset management API with catalog search, circulation workflows, JWT role security, and ISBN validation through a native C/JNI module.</p>
-      <p><code>Java 21</code> <code>Spring Boot 3</code> <code>MySQL</code> <code>Flyway</code> <code>Docker</code></p>
-      <a href="https://github.com/Sachith-Asmadala/LibraCore"><b>View repository ↗</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚙️ TaskLang++</h3>
-      <a href="https://github.com/Sachith-Asmadala/TaskLang"><img src="assets/project-tasklang.svg" alt="TaskLang lexer and parser validating a task definition" width="100%"/></a>
-      <p>A coursework DSL for describing scheduled tasks and dependencies. Its parser validates workflows and simulates execution order; it does not run operating-system commands.</p>
-      <p><code>C</code> <code>Flex</code> <code>Bison</code></p>
-      <a href="https://github.com/Sachith-Asmadala/TaskLang"><b>View repository ↗</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌱 Sustain Insight <sub>· Collaborative</sub></h3>
-      <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---front-end"><img src="assets/project-sustain-insight.svg" alt="Illustration of a sustainability news feed and saved reading" width="100%"/></a>
-      <p>A sustainability-focused news application combining article discovery, personalized feeds, and saved items across a React frontend and Spring Boot backend.</p>
-      <p><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>React</code> <code>TypeScript</code></p>
-      <a href="https://sustain-insight-front-end.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---front-end"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---back-end"><b>Backend ↗</b></a>
+      <h3>🌙 LumaPath AI</h3>
+      <sub>AI / ML · Full-Stack</sub>
+      <a href="https://lumapath-kappa.vercel.app"><img src="assets/project-lumapath-ai.svg" alt="Illustration of LumaPath AI feature areas" width="100%"/></a>
+      <p>An AI-powered student life guidance platform covering academic pressure, emotional wellness, productivity, and career and internship preparation through AI mentoring, journaling, mood tracking, study planning, career roadmaps, and smart reminders.</p>
+      <p><code>TypeScript</code> <code>Next.js</code> <code>Vercel</code></p>
+      <a href="https://lumapath-kappa.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/LumaPath-AI"><b>Repository ↗</b></a>
     </td>
   </tr>
 </table>
@@ -118,45 +118,54 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧵 Textile &amp; Garment Management System</h4>
-      <p>A web-based system that centralizes supplier, product, inventory, order, production, and delivery operations, with real-time tracking and secure role-based access.</p>
-      <p><code>Java</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Web-Based-Textile-Garment-Management-System"><b>View repository ↗</b></a>
-    </td>
-    <td width="50%" valign="top">
       <h4>🔬 ResearchTrack <sub>· Collaborative</sub></h4>
       <p>A research project management platform. An ASP.NET Core microservices backend handles authentication, project management, GitHub and Jira integrations, meetings, submission workflows, and API gateway routing. A React frontend gives students and supervisors unified dashboards for projects, GitHub activity, Jira progress, meetings, and submissions.</p>
       <p><code>C#</code> <code>ASP.NET Core</code> <code>Microservices</code> <code>MySQL</code> <code>React</code></p>
       <a href="https://github.com/Sachith-Asmadala/researchtrack-web"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/researchtrack-backend"><b>Backend ↗</b></a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
-      <h4>🤖 Agentic AI for Infrastructure &amp; Delivery</h4>
-      <p>An LLM-powered autonomous agent for end-to-end DevOps workflows, handling infrastructure provisioning, continuous delivery, and system monitoring in place of static scripts.</p>
-      <p><code>Python</code> <code>Agentic AI</code> <code>DevOps</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI"><b>View repository ↗</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📈 Retail Sales &amp; Business Performance Dashboard</h4>
-      <p>A dashboard that helps a business understand its sales, customers, and product performance.</p>
-      <p><code>Python</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Retail-Sales-Business-Performance-Dashboard"><b>View repository ↗</b></a>
+      <h4>🧵 Textile &amp; Garment Management System</h4>
+      <p>A web-based system that centralizes supplier, product, inventory, order, production, and delivery operations, with real-time tracking and secure role-based access.</p>
+      <p><code>Java</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Web-Based-Textile-Garment-Management-System"><b>View repository ↗</b></a>
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <h4>🌱 Sustain Insight <sub>· Collaborative</sub></h4>
+      <p>A sustainability-focused news application combining article discovery, personalized feeds, and saved items across a React frontend and Spring Boot backend.</p>
+      <p><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>React</code> <code>TypeScript</code></p>
+      <a href="https://sustain-insight-front-end.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---front-end"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---back-end"><b>Backend ↗</b></a>
+    </td>
     <td width="50%" valign="top">
       <h4>📨 Fault-Tolerant Distributed Messaging <sub>· Collaborative</sub></h4>
       <p>A group project on designing a fault-tolerant distributed messaging system.</p>
       <p><code>Distributed Systems</code></p>
       <a href="https://github.com/Sachith-Asmadala/Distributed_Systems_Group_30"><b>View repository ↗</b></a>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📈 Retail Sales &amp; Business Performance Dashboard</h4>
+      <p>A dashboard that helps a business understand its sales, customers, and product performance.</p>
+      <p><code>Python</code></p>
+      <a href="https://github.com/Sachith-Asmadala/Retail-Sales-Business-Performance-Dashboard"><b>View repository ↗</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚙️ TaskLang++</h4>
+      <p>A coursework DSL for describing scheduled tasks and dependencies. Its parser validates workflows, detects circular dependencies, and simulates execution order; it does not run operating-system commands.</p>
+      <p><code>C</code> <code>Flex</code> <code>Bison</code></p>
+      <a href="https://github.com/Sachith-Asmadala/TaskLang"><b>View repository ↗</b></a>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h4>🎲 Yahtzee Retro Deluxe</h4>
       <p>A fully functional terminal Yahtzee game in C, showcasing modular design and game-state management.</p>
       <p><code>C</code></p>
       <a href="https://github.com/Sachith-Asmadala/Yahtzee-Retro-Deluxe"><b>View repository ↗</b></a>
     </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
@@ -185,22 +194,22 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 | | |
 |:---|:---|
-| **01** &nbsp; Backend engineering | **02** &nbsp; Full-stack systems |
-| **03** &nbsp; AI-assisted applications | **04** &nbsp; DevOps, monitoring, and agentic automation |
-| **05** &nbsp; Cloud (Azure, AWS) | **06** &nbsp; Software testing and security |
-| **07** &nbsp; Microservices, messaging, and distributed systems | **08** &nbsp; Data and analytics dashboards |
+| **01** &nbsp; DevOps and cloud automation | **02** &nbsp; Backend engineering |
+| **03** &nbsp; AI/ML and agentic AI applications | **04** &nbsp; Full-stack systems |
+| **05** &nbsp; Monitoring and observability | **06** &nbsp; Microservices, messaging, and distributed systems |
+| **07** &nbsp; Software testing and security | **08** &nbsp; Data and analytics dashboards |
 
 </div>
 
 ## Currently Learning
 
-Developing further in **data structures and algorithms**, **problem-solving**, **software testing**, and **backend engineering** through coursework and project practice.
+Developing further in **data structures and algorithms**, **problem-solving**, **software testing**, **backend engineering**, and **CI/CD and cloud deployment** through coursework and project practice.
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## Let’s Connect
 
-I’m open to Software Engineering Internship opportunities and conversations about building useful software.
+I’m open to DevOps, Software Engineering, and AI/ML internship opportunities, and to conversations about building useful software.
 
 <div align="center">
 
