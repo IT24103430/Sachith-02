@@ -1078,6 +1078,9 @@ def aggregate_languages(username: str, repos: List[Dict[str, Any]], limit: int) 
 
 def main() -> int:
     config = load_config()
+    if config.get("readme_mode") == "static":
+        print("Static profile mode: keeping the manually maintained README unchanged.")
+        return 0
     username = config["username"]
 
     print(f"Fetching GitHub profile and repositories for {username}...")

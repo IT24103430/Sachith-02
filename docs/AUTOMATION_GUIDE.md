@@ -1,6 +1,18 @@
 # Advanced GitHub Profile Automation Guide
 
-This profile repository uses GitHub Actions + Python to keep the README dynamic.
+The current profile uses a concise, manually maintained README. In
+`profile.config.json`, `"readme_mode": "static"` prevents the updater from
+fetching GitHub data or appending generated sections. README lint and health
+checks validate the static profile sections instead of requiring dynamic markers.
+
+Run `python .github/scripts/readme_lint.py`,
+`python .github/scripts/profile_health_check.py --check-only`, and
+`python -m unittest discover -s tests -v` after editing.
+
+The legacy dynamic automation and its assets are preserved. The sections below
+describe that optional mode; changing `readme_mode` to `dynamic` also requires
+restoring the documented README markers. Snapshot and asset workflows remain
+available independently of README generation.
 
 ## 1. Files
 

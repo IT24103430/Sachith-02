@@ -1,8 +1,9 @@
 {
-  "username": "Sachith-02",
+  "username": "Sachith-Asmadala",
+  "readme_mode": "static",
   "display_name": "Sachith Asmadala",
   "location": "Sri Lanka",
-  "headline": "Backend Engineer | Java \u00b7 Spring Boot \u00b7 Distributed Systems",
+  "headline": "Computer Science Undergraduate | Seeking a Software Engineering Internship",
   "tagline": "Building secure APIs, clean backend systems, and automation-first developer tools.",
   "current_focus": [
     "Java 21 and Spring Boot 3 production backend design",
@@ -17,7 +18,8 @@
     "Distributed_Systems_Group_30"
   ],
   "exclude_repositories": [
-    "Sachith-02"
+    "Sachith-02",
+    "Sachith-Asmadala"
   ],
   "include_forks": false,
   "max_repo_cards": 12,
