@@ -1,14 +1,14 @@
 # Profile Snapshot
 
-Generated: **2026-10-27T21:09:47.132983+00:00**
+Generated: **2026-10-27T21:23:11.359576+00:00**
 
 | Item | Value |
 |---|---:|
-| README size | 2696 bytes |
+| README size | 4651 bytes |
 | Configured workflows | 6 |
 | Workflow files | 11 |
 | Dynamic markers | 0 |
-| Local SVG assets | 5 |
+| Local SVG assets | 10 |
 
 ## Workflow inventory
 
@@ -28,3 +28,8 @@ Generated: **2026-10-27T21:09:47.132983+00:00**
 - `assets/portfolio-roadmap.svg`
 - `assets/profile-banner.svg`
 - `assets/profile-layers.svg`
+- `assets/project-knowledge-studio.svg`
+- `assets/project-libracore.svg`
+- `assets/project-sustain-insight.svg`
+- `assets/project-tasklang.svg`
+- `assets/sachith-profile-banner.svg`
