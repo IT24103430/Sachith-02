@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -10,6 +11,15 @@ from typing import List
 
 ROOT = Path(__file__).resolve().parents[2]
 README = ROOT / "README.md"
+CONFIG = ROOT / "profile.config.json"
+
+STATIC_SECTIONS = [
+    "About Me",
+    "Technical Skills",
+    "Featured Projects",
+    "Currently Learning",
+    "Contact and Opportunities",
+]
 
 REQUIRED_SECTIONS = [
     "About Me",
@@ -58,14 +68,23 @@ def main() -> int:
 
     text = README.read_text(encoding="utf-8")
 
-    if len(text) < 3500:
+    config = json.loads(CONFIG.read_text(encoding="utf-8")) if CONFIG.exists() else {}
+    static = config.get("readme_mode") == "static"
+
+    if not static and len(text) < 3500:
         fail("README is too short for a professional profile.", failures)
 
-    for section in REQUIRED_SECTIONS:
-        if section not in text:
+    sections = STATIC_SECTIONS if static else REQUIRED_SECTIONS
+    for section in sections:
+        if static:
+            present = bool(re.search(rf"^## {re.escape(section)}\s*$", text, re.MULTILINE))
+        else:
+            present = section in text
+        if not present:
             fail(f"Missing professional section: {section}", failures)
 
-    for marker in REQUIRED_MARKERS:
+    markers = [] if static else REQUIRED_MARKERS
+    for marker in markers:
         start = f"<!-- {marker}_START -->"
         end = f"<!-- {marker}_END -->"
         if start not in text or end not in text:

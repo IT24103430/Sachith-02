@@ -1,9 +1,9 @@
 # Profile Automation Health Report
 
-Generated: **2026-07-22 03:40 UTC**
+Generated: **2026-10-27 19:26 UTC**
 
 Overall score: **100.0%**  
-Checks passed: **47/47**
+Checks passed: **40/40**
 
 | Status | Check | Detail |
 |---|---|---|
@@ -28,18 +28,11 @@ Checks passed: **47/47**
 | ✅ | File `assets/engineering-matrix.svg` | Present |
 | ✅ | File `assets/automation-workflow.svg` | Present |
 | ✅ | File `assets/portfolio-roadmap.svg` | Present |
-| ✅ | README marker `ABOUT_ME` | Start/end marker pair present |
-| ✅ | README marker `PROFILE_SUMMARY` | Start/end marker pair present |
-| ✅ | README marker `ACTIONS_DASHBOARD` | Start/end marker pair present |
-| ✅ | README marker `ENGINEERING_MATRIX` | Start/end marker pair present |
-| ✅ | README marker `LANGUAGE_SUMMARY` | Start/end marker pair present |
-| ✅ | README marker `PROJECT_STATUS` | Start/end marker pair present |
-| ✅ | README marker `FEATURED_PROJECTS` | Start/end marker pair present |
-| ✅ | README marker `PROJECTS` | Start/end marker pair present |
-| ✅ | README marker `REPO_HEALTH` | Start/end marker pair present |
-| ✅ | README marker `ACTIVITY` | Start/end marker pair present |
-| ✅ | README marker `ROADMAP` | Start/end marker pair present |
-| ✅ | README marker `AUTOMATION_ARCHITECTURE` | Start/end marker pair present |
+| ✅ | README section `About Me` | Required static profile section |
+| ✅ | README section `Technical Skills` | Required static profile section |
+| ✅ | README section `Featured Projects` | Required static profile section |
+| ✅ | README section `Currently Learning` | Required static profile section |
+| ✅ | README section `Contact and Opportunities` | Required static profile section |
 | ✅ | Config `username` | Configured |
 | ✅ | Config `display_name` | Configured |
 | ✅ | Config `headline` | Configured |
@@ -57,7 +50,6 @@ Checks passed: **47/47**
 
 ## Recommended next steps
 
-1. Keep every dynamic README block inside its `<!-- NAME_START -->` and `<!-- NAME_END -->` markers.
-2. Update `profile.config.json` when you add a new flagship repository or workflow.
-3. Add topics, descriptions, releases, and CI files to your strongest repositories.
-4. Run **Weekly Profile Maintenance** after major project updates.
+1. Maintain the concise README manually; generated sections are disabled.
+2. Keep project descriptions and contribution statements tied to verified evidence.
+3. Run the README lint and profile health checks after editing.

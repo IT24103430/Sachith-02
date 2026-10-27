@@ -65,6 +65,17 @@ REQUIRED_CONFIG_KEYS = [
 ]
 
 
+def check_readme(readme_text: str, config: Dict) -> List[Tuple[str, bool, str]]:
+    if config.get("readme_mode") != "static":
+        return check_markers(readme_text)
+    headings = {line.strip() for line in readme_text.splitlines() if line.startswith("## ")}
+    sections = ["About Me", "Technical Skills", "Featured Projects", "Currently Learning", "Contact and Opportunities"]
+    return [
+        (f"README section `{section}`", f"## {section}" in headings, "Required static profile section")
+        for section in sections
+    ]
+
+
 def status(ok: bool) -> str:
     return "✅" if ok else "❌"
 
@@ -105,12 +116,25 @@ def check_config(config: Dict) -> List[Tuple[str, bool, str]]:
     return results
 
 
-def build_report(results: List[Tuple[str, bool, str]]) -> str:
+def build_report(results: List[Tuple[str, bool, str]], readme_mode: str = "dynamic") -> str:
     total = len(results)
     passed = sum(1 for _, ok, _ in results if ok)
     score = round((passed / total * 100) if total else 0, 1)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     rows = "\n".join(f"| {status(ok)} | {name} | {detail} |" for name, ok, detail in results)
+    if readme_mode == "static":
+        next_steps = (
+            "1. Maintain the concise README manually; generated sections are disabled.\n"
+            "2. Keep project descriptions and contribution statements tied to verified evidence.\n"
+            "3. Run the README lint and profile health checks after editing."
+        )
+    else:
+        next_steps = (
+            "1. Keep every dynamic README block inside its `<!-- NAME_START -->` and `<!-- NAME_END -->` markers.\n"
+            "2. Update `profile.config.json` when you add a new flagship repository or workflow.\n"
+            "3. Add topics, descriptions, releases, and CI files to your strongest repositories.\n"
+            "4. Run **Weekly Profile Maintenance** after major project updates."
+        )
     return f"""# Profile Automation Health Report
 
 Generated: **{now}**
@@ -124,10 +148,7 @@ Checks passed: **{passed}/{total}**
 
 ## Recommended next steps
 
-1. Keep every dynamic README block inside its `<!-- NAME_START -->` and `<!-- NAME_END -->` markers.
-2. Update `profile.config.json` when you add a new flagship repository or workflow.
-3. Add topics, descriptions, releases, and CI files to your strongest repositories.
-4. Run **Weekly Profile Maintenance** after major project updates.
+{next_steps}
 """
 
 
@@ -140,11 +161,11 @@ def main() -> int:
     config = load_config() if CONFIG.exists() else {}
     results: List[Tuple[str, bool, str]] = []
     results.extend(check_files())
-    results.extend(check_markers(readme_text))
+    results.extend(check_readme(readme_text, config))
     results.extend(check_config(config))
 
     REPORT.parent.mkdir(exist_ok=True)
-    REPORT.write_text(build_report(results), encoding="utf-8")
+    REPORT.write_text(build_report(results, config.get("readme_mode", "dynamic")), encoding="utf-8")
 
     failures = [name for name, ok, _ in results if not ok]
     if failures:
