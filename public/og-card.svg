@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+ <rect width="1200" height="630" fill="#0b1120"/><path d="M830 0h370v630H830z" fill="#111b2a"/>
+ <circle cx="1030" cy="310" r="184" fill="none" stroke="#b79b72" stroke-opacity=".38"/><circle cx="1030" cy="310" r="140" fill="none" stroke="#f5f2eb" stroke-opacity=".1"/>
+ <text x="80" y="100" fill="#b79b72" font-family="monospace" font-size="18" letter-spacing="5">SOFTWARE ENGINEERING · SLIIT</text>
+ <text x="80" y="265" fill="#f5f2eb" font-family="Georgia,serif" font-size="76">Sachith</text><text x="80" y="350" fill="#f5f2eb" font-family="Georgia,serif" font-size="76">Asmadala.</text>
+ <text x="82" y="420" fill="#a5adba" font-family="Arial,sans-serif" font-size="24">Thoughtful software for real-world problems.</text>
+ <text x="960" y="340" fill="#f5f2eb" font-family="Georgia,serif" font-size="112">SA</text>
+ <text x="80" y="555" fill="#a5adba" font-family="monospace" font-size="15" letter-spacing="3">COMPUTER SCIENCE UNDERGRADUATE · SRI LANKA</text>
+</svg>

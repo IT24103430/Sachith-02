@@ -1,46 +1,57 @@
-# Sachith Asmadala
+# Sachith Asmadala — Portfolio
 
-Third-year Computer Science undergraduate at the Sri Lanka Institute of Information Technology (SLIIT), developing practical skills in software engineering.
+A responsive personal portfolio for Sachith Asmadala, a third-year Computer Science undergraduate at SLIIT seeking a Software Engineering Internship. The site presents selected individual, coursework, and collaborative projects with an understated midnight navy and warm ivory visual system.
 
-## About Me
+## Technology
 
-I’m interested in backend engineering, full-stack applications, and AI-assisted tools. Through coursework and software projects, I’m building experience with APIs, databases, application logic, and collaborative development.
+- React 18 and TypeScript
+- Vite
+- Lucide React icons
+- Custom CSS, with no component or animation framework
 
-I’m seeking a Software Engineering Internship where I can contribute, learn from experienced engineers, and grow through hands-on work.
+## Requirements
 
-## Technical Skills
+- Node.js 20.19+ (or 22.12+)
+- npm
 
-I’m developing proficiency through practice. The following technologies represent project and coursework exposure; familiarity varies by project.
+## Local development
 
-- **Programming Languages:** Java, Python, C, JavaScript, TypeScript, SQL
-- **Backend Development:** Spring Boot, REST APIs; exposure to FastAPI
-- **Frontend Development:** React, HTML, CSS, Tailwind CSS
-- **Databases:** PostgreSQL, MySQL
-- **AI and Machine Learning:** RAG, embeddings, LangChain, Chroma, Groq integration
-- **Development Tools, Testing, and DevOps:** Git, GitHub, Maven, Docker, GitHub Actions, unittest, JUnit, pytest
+```bash
+npm install
+npm run dev
+```
 
-## Featured Projects
+Vite prints the local address after the development server starts.
 
-### [Knowledge Studio](https://github.com/Sachith-Asmadala/Knowledge-Studio)
+## Production build
 
-PDF question answering and summaries using **Python, Streamlit, LangChain, Chroma, and Groq**. Technical focus: retrieving useful document context, preserving source metadata, and reusing saved indexes.
+```bash
+npm run build
+npm run preview
+```
 
-### [TaskLang++](https://github.com/Sachith-Asmadala/TaskLang)
+The static production site is written to `dist/`.
 
-A coursework workflow DSL using **C, Flex, and Bison**. Technical focus: parsing readable syntax, validating dependencies, and detecting cycles before simulated execution.
+## Deployment
 
-### Sustain Insight — Collaborative Project
+The project includes `vercel.json` configured for Vite. Import this repository in Vercel and use the detected project settings, or set the build command to `npm run build` and the output directory to `dist`. No server environment variables are required.
 
-A sustainability news application using **Java, Spring Boot, PostgreSQL, React, and TypeScript**. Technical focus: connecting article ingestion, authentication, and personalized feeds.
+For GitHub Pages, set the Vite `base` option to `/<repository-name>/`, build, then publish the `dist/` directory using GitHub Pages. Use `/` as the base when serving from a custom domain or the `username.github.io` root repository.
 
-[Backend repository](https://github.com/Sachith-Asmadala/Sustain-Insight---back-end) · [Frontend repository](https://github.com/Sachith-Asmadala/Sustain-Insight---front-end)
+## Portfolio content customization
 
-## Currently Learning
+Project descriptions, repository links, and skill groups live in [`src/data/portfolio.ts`](src/data/portfolio.ts). The page sections and their layout live in [`src/App.tsx`](src/App.tsx), with responsive styling and design tokens in [`src/styles.css`](src/styles.css). Keep descriptions aligned with verified project functionality and distinguish collaborative work from individual contributions.
 
-Strengthening data structures, algorithms, problem-solving, backend engineering, and software testing through focused practice and project improvements.
+## Images and visual assets
 
-## Contact and Opportunities
+The portfolio currently uses original CSS and React illustrations for project previews; it does not present them as screenshots. Replace or supplement these visuals with real project screenshots by adding optimized images to `public/` and updating the project visual component in `src/App.tsx`. Use descriptive alt text and only include images you have permission to publish. No portrait is assumed.
 
-Open to **Software Engineering Internship** opportunities and conversations about student software projects.
+The SA favicon is at `public/favicon.svg`. The social sharing image is `public/og-card.svg`.
 
-[GitHub](https://github.com/Sachith-Asmadala) · [LinkedIn](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
+## Résumé
+
+No résumé file was present when this portfolio was prepared, so the site does not show a download link. To add one later, place the verified PDF in `public/` and add a clearly labeled link to it in the hero or contact section.
+
+## Existing profile automation
+
+This repository also contains the existing GitHub profile automation under `.github/`, `docs/`, `assets/`, and `tests/`. Its static README mode keeps this document unchanged when the profile update workflow runs.
