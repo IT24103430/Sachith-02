@@ -1,113 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxYzY1MTBiOS05YWM5LTRlYTctYjU0Ni1iNGIxM2E1NzI1NDgAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaAF3tM1h40Z3WyEK2blE+dcAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1ZTQ0ZTA0Ny1iNWYwLTQ1MTktOTNlOC0yN2U4MzE0MGE3OTRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNos/lJNgAM/393zYCWh1IWbwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg2ryyywGJ4pLxooMGiyEXPEmwa0n0n/uoT+1+WrkZBFakZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPyUwDGARctZXgMnGnFYq3kAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBv7RxkVro7xIyCAb4BTZzs1hqq0RfyLN3XWh9lP8Y9DWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBi3Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjFjNjUxMGI5LTlhYzktNGVhNy1iNTQ2LWI0YjEzYTU3MjU0OC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmU4MjQ2YjcxLTA1NDMtNGI4Yy05ZTZlLTk0ODY2MjFhNTY4YXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDavLLLAYnikvGigwaLIRc8SbBrSfSf+6hP7X5auRkEVqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg2ZnvhB08Lp8fnXyM/YUG6hlwO9xhFH+ax5z3b8Zj8iWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggaYSI3PGKILDj/2KzMqPPtbzkerFOyVVX8vvtybWhUkV0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQLr2CXCK/BBSv49gacn8ZgBiR+cMIYzRzuBGMkN7MNKmeQcYg23NHyLMvYbPIbyW+TGGYEfZrUYN53WtJqGh4nI=</c2pa:manifest></metadata>
-  <title id="t">DevOps assistant architecture</title>
-  <desc id="d">A user works through a React frontend and FastAPI backend with auth and RBAC. The backend routes to a multi-agent layer and a service layer. Agents integrate with GitHub, services persist to a database and Redis, and webhook events return to the backend.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title description">
+  <title id="title">Agentic DevOps Assistant · CI/CD workflow</title>
+  <desc id="description">A React workspace connects to FastAPI with authentication and role checks. GitHub API calls and webhooks connect repositories and workflow events. An orchestration agent routes work to CLI, CI/CD, diagnosis, and GitHub agents for repository analysis, workflow generation, and ML failure diagnosis. Proposed changes go through human review and approval before a pull request is created. Actions are audit logged.</desc>
   <defs>
-    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+    <linearGradient id="orchestrator" x1="0" x2="1">
+      <stop stop-color="#18223d"/>
+      <stop offset="1" stop-color="#251b3c"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#8396b2"/>
+    </marker>
     <style>
-      :root{--bg:#0b1120;--card:#111b2e;--stroke:#29364d;--text:#e6edf3;--muted:#a0aec0;--line:#8b949e;
-        --ai:#a371f7;--ai-bg:#241a3d;--svc:#3fb950;--svc-bg:#12281d;--ext:#d29922;--ext-bg:#2e2412;--core:#58a6ff;--core-bg:#102542}
-      text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:15px;fill:var(--text);text-anchor:middle}
-      .bg{fill:var(--bg)}
-      .n{fill:var(--card);stroke:var(--stroke);stroke-width:1.2}
-      .core{fill:var(--core-bg);stroke:var(--core)}
-      .ai{fill:var(--ai-bg);stroke:var(--ai)}
-      .svc{fill:var(--svc-bg);stroke:var(--svc)}
-      .ext{fill:var(--ext-bg);stroke:var(--ext)}
-      .grp{fill:none;stroke-width:1.5;stroke-dasharray:5 4}
-      .ln{fill:none;stroke:var(--line);stroke-width:1.5;marker-end:url(#a)}
-      .dash{stroke-dasharray:5 4}
-      .gl{font-size:12px;font-weight:700;letter-spacing:.1em;text-anchor:start}
-      .ttl{font-size:18px;font-weight:700;text-anchor:start}
-      .sm{font-size:12px;fill:var(--muted)}
-
+      text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;fill:#e6edf3;text-anchor:middle}
+      .title{font-size:21px;font-weight:700;text-anchor:start}
+      .label{font-size:18px;font-weight:600}
+      .detail{font-size:15px;fill:#a8b7cc}
+      .footer{font-size:13px;fill:#a8b7cc}
+      .node{stroke-width:1.3}
+      .core{fill:#102542;stroke:#58a6ff}
+      .agent{fill:#241a3d;stroke:#a371f7}
+      .service{fill:#12281d;stroke:#3fb950}
+      .external{fill:#2e2412;stroke:#d29922}
+      .neutral{fill:#111b2e;stroke:#53647c}
+      .route{fill:none;stroke:#8396b2;stroke-width:1.7;stroke-dasharray:6 5;marker-end:url(#arrow);animation:flow 1.6s linear infinite}
+      .bus{fill:none;stroke:#53647c;stroke-width:1.5}
+      .halo{fill:none;stroke:#a371f7;stroke-width:1.5;animation:halo 3s ease-in-out infinite}
+      .packet{filter:drop-shadow(0 0 3px currentColor)}
       @keyframes flow{to{stroke-dashoffset:-22}}
-      @keyframes march{to{stroke-dashoffset:-18}}
-      @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-      @keyframes glow{0%,100%{opacity:1}50%{opacity:.55}}
-      .ln{stroke-dasharray:6 5;animation:flow 1.1s linear infinite}
-      .grp{animation:march 2.2s linear infinite}
-      .e1{animation:rise .6s ease-out backwards}
-      .e2{animation:rise .6s ease-out .25s backwards}
-      .e3{animation:rise .6s ease-out .5s backwards}
-      .e4{animation:rise .6s ease-out .75s backwards}
-      .e5{animation:rise .6s ease-out 1s backwards}
-      .pulse{animation:glow 2.4s ease-in-out infinite}
-      .pkt{filter:drop-shadow(0 0 3px currentColor)}
-      @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+      @keyframes halo{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}.packet{display:none}}
     </style>
   </defs>
-  <rect class="bg" width="900" height="540" rx="12"/>
-  <text x="30" y="36" class="ttl">DevOps Assistant · Architecture</text>
+  <rect width="900" height="540" rx="12" fill="#0b1120"/>
+  <text x="30" y="36" class="title">Agentic DevOps Assistant · Architecture</text>
 
-  <!-- Entry row -->
-  <g class="e1">
-  <rect class="n" x="30" y="58" width="130" height="46" rx="8"/><text x="95" y="87">User</text>
-  <rect class="n core" x="210" y="58" width="170" height="46" rx="8"/><text x="295" y="87">React Frontend</text>
-  <rect class="n core pulse" x="430" y="58" width="190" height="46" rx="8"/><text x="525" y="87">FastAPI Backend</text>
-  <rect class="n" x="670" y="58" width="200" height="46" rx="8"/><text x="770" y="87">Auth + RBAC</text>
-  <path class="ln" d="M160 81H210"/><path class="ln" d="M380 81H430"/><path class="ln" d="M620 81H670"/>
+  <!-- Interface and repository integration -->
+  <rect x="30" y="66" width="240" height="62" rx="9" class="node core"/>
+  <text x="150" y="92" class="label">React Workspace</text>
+  <text x="150" y="113" class="detail">Scan repos · inspect failures</text>
+  <rect x="330" y="66" width="240" height="62" rx="9" class="node core"/>
+  <text x="450" y="92" class="label">FastAPI</text>
+  <text x="450" y="113" class="detail">Authentication + RBAC</text>
+  <rect x="630" y="66" width="240" height="62" rx="9" class="node external"/>
+  <text x="750" y="92" class="label">GitHub Integration</text>
+  <text x="750" y="113" class="detail">API calls + webhook events</text>
+  <path d="M270 97H330" class="route"/>
+  <path d="M570 97H630" class="route" marker-start="url(#arrow)"/>
+  <path d="M450 128V170" class="route"/>
 
-  </g>
+  <!-- Routing layer -->
+  <rect x="30" y="170" width="840" height="76" rx="11" fill="url(#orchestrator)"/>
+  <rect x="30" y="170" width="840" height="76" rx="11" class="halo"/>
+  <text x="450" y="200" class="label">Orchestration Agent</text>
+  <text x="450" y="225" class="detail">Routes tasks to CLI · CI/CD · Diagnosis · GitHub agents</text>
+  <path d="M450 246V266M155 266H745" class="bus"/>
+  <path d="M155 266V288" class="route"/>
+  <path d="M450 266V288" class="route"/>
+  <path d="M745 266V288" class="route"/>
 
-  <!-- Bus -->
-  <path d="M525 104V134H240V160" class="ln"/>
-  <path d="M525 134H660V160" class="ln"/>
+  <!-- Three complementary capabilities -->
+  <rect x="30" y="288" width="250" height="88" rx="9" class="node core"/>
+  <text x="155" y="319" class="label">Repository Analysis</text>
+  <text x="155" y="343" class="detail">Stack + CI/CD readiness</text>
+  <text x="155" y="363" class="detail">Existing workflow checks</text>
+  <rect x="325" y="288" width="250" height="88" rx="9" class="node service"/>
+  <text x="450" y="319" class="label">Workflow Generation</text>
+  <text x="450" y="343" class="detail">GitHub Actions YAML</text>
+  <text x="450" y="363" class="detail">Stack-aware configuration</text>
+  <rect x="620" y="288" width="250" height="88" rx="9" class="node agent"/>
+  <text x="745" y="319" class="label">ML Failure Diagnosis</text>
+  <text x="745" y="343" class="detail">TF-IDF + Logistic Regression</text>
+  <text x="745" y="363" class="detail">Failure category + suggested fix</text>
 
-  <g class="e2">
-  <!-- Multi-agent group -->
-  <rect class="grp ai" x="30" y="160" width="420" height="170" rx="12" style="stroke:var(--ai)"/>
-  <text x="46" y="184" class="gl" style="fill:var(--ai)">MULTI-AGENT LAYER</text>
-  <rect class="n ai" x="46" y="200" width="190" height="44" rx="8"/><text x="141" y="228">CLI Agent</text>
-  <rect class="n ai" x="244" y="200" width="190" height="44" rx="8"/><text x="339" y="228">CI/CD Agent</text>
-  <rect class="n ai" x="46" y="262" width="190" height="44" rx="8"/><text x="141" y="290">Diagnosis Agent</text>
-  <rect class="n ai" x="244" y="262" width="190" height="44" rx="8"/><text x="339" y="290">GitHub Agent</text>
+  <!-- Proposed changes converge on review; no automatic merge -->
+  <path d="M155 376V402H745V376M450 376V402" class="bus"/>
+  <path d="M155 402V430" class="route"/>
+  <rect x="30" y="430" width="250" height="64" rx="9" class="node external"/>
+  <text x="155" y="457" class="label">Review + Approval</text>
+  <text x="155" y="480" class="detail">Human control over changes</text>
+  <rect x="325" y="430" width="250" height="64" rx="9" class="node service"/>
+  <text x="450" y="457" class="label">Fix Pull Request</text>
+  <text x="450" y="480" class="detail">Branch · commit · propose</text>
+  <rect x="620" y="430" width="250" height="64" rx="9" class="node neutral"/>
+  <text x="745" y="457" class="label">Audit Trail</text>
+  <text x="745" y="480" class="detail">Actions · predictions · approvals</text>
+  <path d="M280 462H325" class="route"/>
+  <path d="M575 462H620" class="route"/>
+  <text x="450" y="525" class="footer">Python · React · scikit-learn · Docker · GitHub Actions</text>
 
-  </g>
-  <g class="e3">
-  <!-- Service group -->
-  <rect class="grp svc" x="470" y="160" width="400" height="170" rx="12" style="stroke:var(--svc)"/>
-  <text x="486" y="184" class="gl" style="fill:var(--svc)">SERVICE LAYER</text>
-  <rect class="n svc" x="486" y="200" width="118" height="44" rx="8"/><text x="545" y="218" class="sm" style="fill:var(--text);font-size:13px">Repository</text><text x="545" y="234" style="font-size:13px">Analyzer</text>
-  <rect class="n svc" x="612" y="200" width="118" height="44" rx="8"/><text x="671" y="218" style="font-size:13px">Workflow</text><text x="671" y="234" style="font-size:13px">Generator</text>
-  <rect class="n svc" x="738" y="200" width="116" height="44" rx="8"/><text x="796" y="227" style="font-size:13px">Failure Model</text>
-  <rect class="n svc" x="486" y="262" width="180" height="44" rx="8"/><text x="576" y="290">Approval Service</text>
-  <rect class="n svc" x="674" y="262" width="180" height="44" rx="8"/><text x="764" y="290">Audit Service</text>
-
-  </g>
-
-  <!-- Down arrows -->
-  <path class="ln" d="M240 330V390"/>
-  <path class="ln" d="M660 330V390"/>
-
-  <g class="e4">
-  <!-- GitHub group -->
-  <rect class="grp ext" x="30" y="390" width="420" height="110" rx="12" style="stroke:var(--ext)"/>
-  <text x="46" y="414" class="gl" style="fill:var(--ext)">GITHUB</text>
-  <rect class="n ext" x="46" y="430" width="170" height="52" rx="8"/><text x="131" y="462">GitHub API</text>
-  <rect class="n ext" x="264" y="430" width="170" height="52" rx="8"/><text x="349" y="462">GitHub Webhooks</text>
-  <path class="ln" d="M216 456H264"/>
-
-  </g>
-  <g class="e5">
-  <!-- Data group -->
-  <rect class="grp" x="470" y="390" width="400" height="110" rx="12" style="stroke:var(--line)"/>
-  <text x="486" y="414" class="gl" style="fill:var(--muted)">DATA</text>
-  <rect class="n" x="486" y="430" width="170" height="52" rx="8"/><text x="571" y="462">Database</text>
-  <rect class="n" x="680" y="430" width="174" height="52" rx="8"/><text x="767" y="462">Redis</text>
-
-  </g>
-
-  <!-- Webhook events back to backend -->
-  <path class="ln dash" d="M450 445H460V134H525"/>
-  <text x="456" y="520" class="sm" style="text-anchor:middle">webhook events return to FastAPI</text>
-
-  <!-- Travelling request packets -->
-  <g class="pkt">
-    <circle r="5" style="fill:var(--core);color:var(--core)"><animateMotion dur="2.4s" repeatCount="indefinite" begin="1.2s" path="M95 81H525"/></circle>
-    <circle r="5" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="2.6s" repeatCount="indefinite" begin="2.4s" path="M525 104V134H240V200"/></circle>
-    <circle r="5" style="fill:var(--ext);color:var(--ext)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="3.6s" path="M240 330V390"/></circle>
-    <circle r="5" style="fill:var(--svc);color:var(--svc)"><animateMotion dur="2.2s" repeatCount="indefinite" begin="2.9s" path="M525 134H660V200"/></circle>
-    <circle r="5" style="fill:var(--line);color:var(--line)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="4s" path="M660 330V390"/></circle>
-    <circle r="5" style="fill:var(--ext);color:var(--ext)"><animateMotion dur="3s" repeatCount="indefinite" begin="5s" path="M450 445H460V134H525"/></circle>
+  <!-- Packets stay on connectors so labels remain readable. -->
+  <g class="packet">
+    <circle r="4" fill="#58a6ff" color="#58a6ff"><animateMotion dur="1.8s" repeatCount="indefinite" path="M270 97H330"/></circle>
+    <circle r="4" fill="#d29922" color="#d29922"><animateMotion dur="2.2s" repeatCount="indefinite" path="M630 97H570"/></circle>
+    <circle r="4" fill="#a371f7" color="#a371f7"><animateMotion dur="2s" repeatCount="indefinite" path="M450 128V170"/></circle>
+    <circle r="4" fill="#58a6ff" color="#58a6ff"><animateMotion dur="3.1s" repeatCount="indefinite" path="M450 246V266H155V288"/></circle>
+    <circle r="4" fill="#3fb950" color="#3fb950"><animateMotion dur="2.3s" repeatCount="indefinite" path="M450 246V288"/></circle>
+    <circle r="4" fill="#a371f7" color="#a371f7"><animateMotion dur="3.4s" repeatCount="indefinite" path="M450 246V266H745V288"/></circle>
+    <circle r="4" fill="#d29922" color="#d29922"><animateMotion dur="4.6s" repeatCount="indefinite" path="M745 376V402H155V430"/></circle>
+    <circle r="4" fill="#3fb950" color="#3fb950"><animateMotion dur="1.9s" repeatCount="indefinite" path="M280 462H325"/></circle>
+    <circle r="4" fill="#a8b7cc" color="#a8b7cc"><animateMotion dur="2.4s" repeatCount="indefinite" path="M575 462H620"/></circle>
   </g>
 </svg>

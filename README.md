@@ -31,7 +31,7 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 | | DevOps | Software Engineering | AI / ML |
 |:---|:---:|:---:|:---:|
 | **Tools** | Docker · GitHub Actions · Azure · AWS · Prometheus · Grafana · Kafka | Java · Spring Boot · C# · ASP.NET Core · React · Next.js | Python · RAG · LangChain · ChromaDB · Agentic AI |
-| **Projects** | [Agentic AI for DevOps](https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · [LibraCore](https://github.com/Sachith-Asmadala/LibraCore) (Dockerized) | [LibraCore](https://github.com/Sachith-Asmadala/LibraCore) · [ResearchTrack](https://github.com/Sachith-Asmadala/researchtrack-backend) · [Textile System](https://github.com/Sachith-Asmadala/Web-Based-Textile-Garment-Management-System) | [Knowledge Studio](https://github.com/Sachith-Asmadala/Knowledge-Studio) · [LumaPath AI](https://github.com/Sachith-Asmadala/LumaPath-AI) |
+| **Projects** | [ResearchTrack](https://github.com/Sachith-Asmadala/researchtrack-web) · [Agentic DevOps Assistant](https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · [LibraCore](https://github.com/Sachith-Asmadala/LibraCore) | [ResearchTrack](https://github.com/Sachith-Asmadala/researchtrack-web) · [LibraCore](https://github.com/Sachith-Asmadala/LibraCore) | [Agentic DevOps Assistant](https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · [Knowledge Studio](https://github.com/Sachith-Asmadala/Knowledge-Studio) |
 
 </div>
 
@@ -72,100 +72,44 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 ## Featured Engineering Projects
 
-<sub>Selected individual, coursework, and collaborative work. The diagrams are original project illustrations, not screenshots.</sub>
+<sub>Four projects across DevOps, software engineering, and AI/ML. Animated diagrams show each project's architecture and data flow.</sub>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📚 LibraCore</h3>
-      <sub>Software Engineering · DevOps</sub>
-      <a href="https://github.com/Sachith-Asmadala/LibraCore"><img src="assets/project-libracore.svg" alt="Diagram of the LibraCore library API layers" width="100%"/></a>
-      <p>A library and asset management API with catalog search, circulation workflows, JWT role security, and ISBN validation through a native C/JNI module. Containerized with Docker.</p>
-      <p><code>Java 21</code> <code>Spring Boot 3</code> <code>MySQL</code> <code>Flyway</code> <code>Docker</code></p>
-      <a href="https://github.com/Sachith-Asmadala/LibraCore"><b>View repository ↗</b></a>
+      <h3>🔬 ResearchTrack</h3>
+      <sub>Software Engineering · DevOps · Collaborative</sub>
+      <img src="assets/project-researchtrack.svg" alt="Animated ResearchTrack architecture: React workspace, YARP gateway, six ASP.NET Core services, MySQL, and GitHub and Jira integrations" width="100%"/>
+      <p>A research project management platform connecting students and supervisors through shared dashboards, GitHub and Jira activity, meetings, and submission reviews. Built with six ASP.NET Core microservices, a React workspace, and containerized deployment infrastructure.</p>
+      <p><code>React</code> <code>ASP.NET Core</code> <code>MySQL</code> <code>Docker</code> <code>Azure</code> <code>GitHub Actions</code></p>
+      <p><b>View repositories:</b> <a href="https://github.com/Sachith-Asmadala/researchtrack-web"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/researchtrack-backend"><b>Backend ↗</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 Agentic AI for Infrastructure &amp; Delivery</h3>
-      <sub>DevOps · AI</sub>
-      <a href="https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI"><img src="assets/project-agentic-devops.svg" alt="Diagram of an LLM agent orchestrating provisioning, delivery and monitoring" width="100%"/></a>
-      <p>An LLM-powered autonomous agent for end-to-end DevOps workflows. It replaces static scripts with agentic AI to handle infrastructure provisioning, continuous delivery, and system monitoring.</p>
-      <p><code>Python</code> <code>Agentic AI</code> <code>DevOps</code> <code>LLM</code></p>
+      <h3>🤖 Agentic DevOps Assistant</h3>
+      <sub>DevOps · AI / ML</sub>
+      <a href="https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI"><img src="assets/project-agentic-devops.svg" alt="Animated Agentic DevOps Assistant workflow: React and FastAPI route repository analysis, workflow generation, and ML failure diagnosis through human review, fix pull requests, and audit logging" width="100%"/></a>
+      <p>An agent-based CI/CD assistant that turns repository scans and failed build logs into actionable improvements. Analyzes project readiness, generates GitHub Actions workflows, and classifies failures with TF-IDF and Logistic Regression. Proposed fixes pass through human review, pull requests, and an audit trail.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>React</code> <code>scikit-learn</code> <code>Docker</code> <code>GitHub Actions</code></p>
       <a href="https://github.com/Sachith-Asmadala/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI"><b>View repository ↗</b></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 Knowledge Studio</h3>
-      <sub>AI / ML</sub>
-      <a href="https://github.com/Sachith-Asmadala/Knowledge-Studio"><img src="assets/project-knowledge-studio.svg" alt="Diagram of a document retrieval and grounded answer workflow" width="100%"/></a>
-      <p>Ask questions about lecture PDFs, inspect retrieved source passages, and create structured summaries with a persistent document index.</p>
+      <sub>AI / ML · Retrieval-Augmented Generation</sub>
+      <a href="https://github.com/Sachith-Asmadala/Knowledge-Studio"><img src="assets/project-knowledge-studio.svg" alt="Animated Knowledge Studio architecture: PDF ingestion, text chunks, HuggingFace embeddings, persistent Chroma index, retrieval, and grounded answers through Groq" width="100%"/></a>
+      <p>A document-grounded Q&amp;A application for lecture PDFs. Builds reusable vector indexes, supports MMR and similarity retrieval, and generates answers and structured summaries with inspectable source passages.</p>
       <p><code>Python</code> <code>Streamlit</code> <code>LangChain</code> <code>ChromaDB</code> <code>HuggingFace</code> <code>Groq</code></p>
       <a href="https://github.com/Sachith-Asmadala/Knowledge-Studio"><b>View repository ↗</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🌙 LumaPath AI</h3>
-      <sub>AI / ML · Full-Stack</sub>
-      <a href="https://lumapath-kappa.vercel.app"><img src="assets/project-lumapath-ai.svg" alt="Illustration of LumaPath AI feature areas" width="100%"/></a>
-      <p>An AI-powered student life guidance platform covering academic pressure, emotional wellness, productivity, and career and internship preparation through AI mentoring, journaling, mood tracking, study planning, career roadmaps, and smart reminders.</p>
-      <p><code>TypeScript</code> <code>Next.js</code> <code>Vercel</code></p>
-      <a href="https://lumapath-kappa.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/LumaPath-AI"><b>Repository ↗</b></a>
+      <h3>📚 LibraCore</h3>
+      <sub>Software Engineering · DevOps</sub>
+      <a href="https://github.com/Sachith-Asmadala/LibraCore"><img src="assets/project-libracore.svg" alt="Animated LibraCore architecture: REST requests, JWT role security, catalog and circulation services, native C/JNI ISBN validation, and MySQL with Flyway migrations" width="100%"/></a>
+      <p>A library and asset management API with catalog search, circulation workflows, JWT role security, and ISBN validation through a native C/JNI module. Uses Flyway database migrations and Docker Compose for the application stack.</p>
+      <p><code>Java 21</code> <code>Spring Boot 3</code> <code>MySQL</code> <code>Flyway</code> <code>C / JNI</code> <code>Docker</code></p>
+      <a href="https://github.com/Sachith-Asmadala/LibraCore"><b>View repository ↗</b></a>
     </td>
-  </tr>
-</table>
-
-### More Work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🔬 ResearchTrack <sub>· Collaborative</sub></h4>
-      <p>A research project management platform. An ASP.NET Core microservices backend handles authentication, project management, GitHub and Jira integrations, meetings, submission workflows, and API gateway routing. A React frontend gives students and supervisors unified dashboards for projects, GitHub activity, Jira progress, meetings, and submissions.</p>
-      <p><code>C#</code> <code>ASP.NET Core</code> <code>Microservices</code> <code>MySQL</code> <code>React</code></p>
-      <a href="https://github.com/Sachith-Asmadala/researchtrack-web"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/researchtrack-backend"><b>Backend ↗</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🧵 Textile &amp; Garment Management System</h4>
-      <p>A web-based system that centralizes supplier, product, inventory, order, production, and delivery operations, with real-time tracking and secure role-based access.</p>
-      <p><code>Java</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Web-Based-Textile-Garment-Management-System"><b>View repository ↗</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌱 Sustain Insight <sub>· Collaborative</sub></h4>
-      <p>A sustainability-focused news application combining article discovery, personalized feeds, and saved items across a React frontend and Spring Boot backend.</p>
-      <p><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>React</code> <code>TypeScript</code></p>
-      <a href="https://sustain-insight-front-end.vercel.app"><b>Live demo ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---front-end"><b>Frontend ↗</b></a> · <a href="https://github.com/Sachith-Asmadala/Sustain-Insight---back-end"><b>Backend ↗</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📨 Fault-Tolerant Distributed Messaging <sub>· Collaborative</sub></h4>
-      <p>A group project on designing a fault-tolerant distributed messaging system.</p>
-      <p><code>Distributed Systems</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Distributed_Systems_Group_30"><b>View repository ↗</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📈 Retail Sales &amp; Business Performance Dashboard</h4>
-      <p>A dashboard that helps a business understand its sales, customers, and product performance.</p>
-      <p><code>Python</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Retail-Sales-Business-Performance-Dashboard"><b>View repository ↗</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ TaskLang++</h4>
-      <p>A coursework DSL for describing scheduled tasks and dependencies. Its parser validates workflows, detects circular dependencies, and simulates execution order; it does not run operating-system commands.</p>
-      <p><code>C</code> <code>Flex</code> <code>Bison</code></p>
-      <a href="https://github.com/Sachith-Asmadala/TaskLang"><b>View repository ↗</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🎲 Yahtzee Retro Deluxe</h4>
-      <p>A fully functional terminal Yahtzee game in C, showcasing modular design and game-state management.</p>
-      <p><code>C</code></p>
-      <a href="https://github.com/Sachith-Asmadala/Yahtzee-Retro-Deluxe"><b>View repository ↗</b></a>
-    </td>
-    <td width="50%"></td>
   </tr>
 </table>
 

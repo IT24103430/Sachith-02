@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-labelledby="t d">
+  <title id="t">ResearchTrack · Architecture</title>
+  <desc id="d">React serves student and supervisor workspaces through a YARP API gateway. Six ASP.NET Core services handle authentication, projects, GitHub and Jira integrations, meetings, and submissions. Services own MySQL data and EF Core migrations. Deployment uses Docker, Azure, and GitHub Actions with Prometheus and Grafana monitoring.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+    <style>
+      :root{--bg:#0b1120;--card:#111b2e;--stroke:#29364d;--text:#e6edf3;--muted:#a0aec0;--line:#8b949e;
+        --ai:#a371f7;--ai-bg:#241a3d;--svc:#3fb950;--svc-bg:#12281d;--ext:#d29922;--ext-bg:#2e2412;--core:#58a6ff;--core-bg:#102542}
+      text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:15px;fill:var(--text);text-anchor:middle}
+      .bg{fill:var(--bg)}
+      .n{fill:var(--card);stroke:var(--stroke);stroke-width:1.2}
+      .core{fill:var(--core-bg);stroke:var(--core)}
+      .ai{fill:var(--ai-bg);stroke:var(--ai)}
+      .svc{fill:var(--svc-bg);stroke:var(--svc)}
+      .ext{fill:var(--ext-bg);stroke:var(--ext)}
+      .grp{fill:none;stroke-width:1.5;stroke-dasharray:5 4}
+      .ln{fill:none;stroke:var(--line);stroke-width:1.5;marker-end:url(#a)}
+      .dash{stroke-dasharray:5 4}
+      .gl{font-size:12px;font-weight:700;letter-spacing:.1em;text-anchor:start}
+      .ttl{font-size:18px;font-weight:700;text-anchor:start}
+      .sm{font-size:12px;fill:var(--muted)}
+
+      @keyframes flow{to{stroke-dashoffset:-22}}
+      @keyframes march{to{stroke-dashoffset:-18}}
+      @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      @keyframes glow{0%,100%{opacity:1}50%{opacity:.55}}
+      .ln{stroke-dasharray:6 5;animation:flow 1.1s linear infinite}
+      .grp{animation:march 2.2s linear infinite}
+      .e1{animation:rise .6s ease-out backwards}
+      .e2{animation:rise .6s ease-out .25s backwards}
+      .e3{animation:rise .6s ease-out .5s backwards}
+      .e4{animation:rise .6s ease-out .75s backwards}
+      .e5{animation:rise .6s ease-out 1s backwards}
+      .pulse{animation:glow 2.4s ease-in-out infinite}
+      .pkt{filter:drop-shadow(0 0 3px currentColor)}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+    </style>
+  </defs>
+  <rect class="bg" width="900" height="540" rx="12"/>
+  <text x="30" y="36" class="ttl" style="">ResearchTrack · Architecture</text>
+  <g class="e1"><rect class="n core" x="30" y="58" width="240" height="46" rx="8"/><text x="150.0" y="87.0" class="" style="font-size:17px">React Workspace</text><rect class="n core pulse" x="330" y="58" width="240" height="46" rx="8"/><text x="450.0" y="87.0" class="" style="font-size:17px">YARP API Gateway</text><rect class="n core" x="630" y="58" width="240" height="46" rx="8"/><text x="750.0" y="87.0" class="" style="font-size:17px">Auth + Roles</text><path class="ln" d="M270 81H330"/><path class="ln" d="M570 81H630"/></g><path class="ln" d="M450 104V160"/><g class="e2"><rect class="grp ai" x="30" y="160" width="840" height="170" rx="12"/><text x="46" y="185" class="gl" style="fill:var(--ai);font-size:14px">ASP.NET CORE · SIX MICROSERVICES</text><rect class="n ai" x="46" y="205" width="256" height="44" rx="8"/><text x="174.0" y="233.0" class="" style="font-size:17px">Authentication</text><rect class="n ai" x="322" y="205" width="256" height="44" rx="8"/><text x="450.0" y="233.0" class="" style="font-size:17px">Projects</text><rect class="n ai" x="598" y="205" width="256" height="44" rx="8"/><text x="726.0" y="233.0" class="" style="font-size:17px">GitHub Integration</text><rect class="n ai" x="46" y="268" width="256" height="44" rx="8"/><text x="174.0" y="296.0" class="" style="font-size:17px">Jira Integration</text><rect class="n ai" x="322" y="268" width="256" height="44" rx="8"/><text x="450.0" y="296.0" class="" style="font-size:17px">Meetings</text><rect class="n ai" x="598" y="268" width="256" height="44" rx="8"/><text x="726.0" y="296.0" class="" style="font-size:17px">Submissions</text></g><path class="ln" d="M240 330V390"/><path class="ln" d="M670 330V390"/><g class="e3"><rect class="grp svc" x="30" y="390" width="420" height="110" rx="12"/><text x="46" y="415" class="gl" style="fill:var(--svc);font-size:14px">SERVICE-OWNED DATA</text><rect class="n svc" x="46" y="430" width="388" height="52" rx="8"/><text x="240.0" y="456.0" class="" style="font-size:17px">MySQL</text><text x="240.0" y="477.0" class="sm" style="font-size:14px">EF Core migrations</text></g><g class="e4"><rect class="grp ext" x="470" y="390" width="400" height="110" rx="12"/><text x="486" y="415" class="gl" style="fill:var(--ext);font-size:14px">EXTERNAL INTEGRATIONS</text><rect class="n ext" x="486" y="430" width="176" height="52" rx="8"/><text x="574.0" y="462.0" class="" style="font-size:17px">GitHub</text><rect class="n ext" x="678" y="430" width="176" height="52" rx="8"/><text x="766.0" y="462.0" class="" style="font-size:17px">Jira</text></g>
+  <text x="450" y="525" class="sm" style="font-size:13px">Docker · Azure · GitHub Actions · Prometheus + Grafana</text>
+  <g class="pkt"><circle r="4" style="fill:var(--core);color:var(--core)"><animateMotion dur="1.8s" repeatCount="indefinite" path="M270 81H330"/></circle><circle r="4" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="2s" repeatCount="indefinite" path="M450 104V160"/></circle><circle r="4" style="fill:var(--svc);color:var(--svc)"><animateMotion dur="2.3s" repeatCount="indefinite" path="M240 330V390"/></circle><circle r="4" style="fill:var(--ext);color:var(--ext)"><animateMotion dur="2.6s" repeatCount="indefinite" path="M670 330V390"/></circle></g>
+</svg>
