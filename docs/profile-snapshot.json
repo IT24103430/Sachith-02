@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-27T22:44:16.570018+00:00",
+  "generated_at": "2026-10-28T04:39:48.436026+00:00",
   "username": "Sachith-Asmadala",
   "display_name": "Sachith Asmadala",
   "headline": "Computer Science Undergraduate | Seeking a Software Engineering Internship",
-  "readme_bytes": 14601,
+  "readme_bytes": 11979,
   "configured_workflows": 6,
   "workflow_files": [
     ".github/workflows/ai-generated-ci.yml",
@@ -44,6 +44,7 @@
     "assets/project-knowledge-studio.svg",
     "assets/project-libracore.svg",
     "assets/project-lumapath-ai.svg",
+    "assets/project-researchtrack.svg",
     "assets/project-sustain-insight.svg",
     "assets/project-tasklang.svg",
     "assets/sachith-profile-banner.svg"
