@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-labelledby="t d">
+  <title id="t">Retail Sales Analytics · Data Flow</title>
+  <desc id="d">Python generates 5,000 synthetic retail order lines, profiles CSV quality, and calculates business insights in Sri Lankan rupees. Power Query, a star-schema design, DAX measures, and three report page specifications are prepared. Power BI Desktop model assembly, rendering, and verification are pending.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+    <style>
+      :root{--bg:#0b1120;--card:#111b2e;--stroke:#29364d;--text:#e6edf3;--muted:#a0aec0;--line:#8b949e;
+        --ai:#a371f7;--ai-bg:#241a3d;--svc:#3fb950;--svc-bg:#12281d;--ext:#d29922;--ext-bg:#2e2412;--core:#58a6ff;--core-bg:#102542}
+      text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:15px;fill:var(--text);text-anchor:middle}
+      .bg{fill:var(--bg)}
+      .n{fill:var(--card);stroke:var(--stroke);stroke-width:1.2}
+      .core{fill:var(--core-bg);stroke:var(--core)}
+      .ai{fill:var(--ai-bg);stroke:var(--ai)}
+      .svc{fill:var(--svc-bg);stroke:var(--svc)}
+      .ext{fill:var(--ext-bg);stroke:var(--ext)}
+      .grp{fill:none;stroke-width:1.5;stroke-dasharray:5 4}
+      .ln{fill:none;stroke:var(--line);stroke-width:1.5;marker-end:url(#a)}
+      .dash{stroke-dasharray:5 4}
+      .gl{font-size:12px;font-weight:700;letter-spacing:.1em;text-anchor:start}
+      .ttl{font-size:18px;font-weight:700;text-anchor:start}
+      .sm{font-size:12px;fill:var(--muted)}
+
+      @keyframes flow{to{stroke-dashoffset:-22}}
+      @keyframes march{to{stroke-dashoffset:-18}}
+      @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      @keyframes glow{0%,100%{opacity:1}50%{opacity:.55}}
+      .ln{stroke-dasharray:6 5;animation:flow 1.1s linear infinite}
+      .grp{animation:march 2.2s linear infinite}
+      .e1{animation:rise .6s ease-out backwards}
+      .e2{animation:rise .6s ease-out .25s backwards}
+      .e3{animation:rise .6s ease-out .5s backwards}
+      .e4{animation:rise .6s ease-out .75s backwards}
+      .e5{animation:rise .6s ease-out 1s backwards}
+      .pulse{animation:glow 2.4s ease-in-out infinite}
+      .pkt{filter:drop-shadow(0 0 3px currentColor)}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+    </style>
+  </defs>
+  <rect class="bg" width="900" height="540" rx="12"/>
+  <text x="30" y="36" class="ttl">Retail Sales Analytics · Data Flow</text>
+
+  <g class="e1">
+    <rect class="grp core" x="30" y="58" width="840" height="142" rx="12"/>
+    <text x="46" y="83" class="gl" style="fill:var(--core);font-size:14px">REPRODUCIBLE PYTHON ANALYSIS</text>
+    <rect class="n core" x="46" y="110" width="240" height="64" rx="8"/>
+    <text x="166" y="138" style="font-size:17px">Synthetic Retail CSVs</text>
+    <text x="166" y="160" class="sm" style="font-size:14px">5,000 lines · 2,453 orders</text>
+    <rect class="n core" x="330" y="110" width="240" height="64" rx="8"/>
+    <text x="450" y="138" style="font-size:17px">Data Quality Profile</text>
+    <text x="450" y="160" class="sm" style="font-size:14px">Missing values + key checks</text>
+    <rect class="n svc" x="614" y="110" width="240" height="64" rx="8"/>
+    <text x="734" y="138" style="font-size:17px">Calculated Insights</text>
+    <text x="734" y="160" class="sm" style="font-size:14px">Revenue · Profit · LKR</text>
+    <path class="ln" d="M286 142H330"/>
+    <path class="ln" d="M570 142H614"/>
+  </g>
+
+  <path class="ln" d="M166 174V272"/>
+  <g class="e2">
+    <rect class="grp ai" x="30" y="230" width="840" height="110" rx="12"/>
+    <text x="46" y="255" class="gl" style="fill:var(--ai);font-size:14px">PREPARED BI ASSETS · DESKTOP TESTING PENDING</text>
+    <rect class="n ai" x="46" y="272" width="240" height="50" rx="8"/>
+    <text x="166" y="303" style="font-size:17px">Power Query M</text>
+    <rect class="n ai" x="330" y="272" width="240" height="50" rx="8"/>
+    <text x="450" y="303" style="font-size:17px">Star-Schema Design</text>
+    <rect class="n ai" x="614" y="272" width="240" height="50" rx="8"/>
+    <text x="734" y="303" style="font-size:17px">DAX Measures</text>
+    <path class="ln" d="M286 297H330"/>
+    <path class="ln" d="M570 297H614"/>
+  </g>
+
+  <path class="ln" d="M734 322V390"/>
+  <g class="e3">
+    <rect class="grp ext" x="30" y="390" width="840" height="110" rx="12"/>
+    <text x="46" y="415" class="gl" style="fill:var(--ext);font-size:14px">PLANNED POWER BI REPORT · BUILD + VERIFICATION PENDING</text>
+    <rect class="n ext" x="46" y="430" width="256" height="52" rx="8"/>
+    <text x="174" y="462" style="font-size:17px">Executive Overview</text>
+    <rect class="n ext" x="322" y="430" width="256" height="52" rx="8"/>
+    <text x="450" y="462" style="font-size:17px">Product Performance</text>
+    <rect class="n ext" x="598" y="430" width="256" height="52" rx="8"/>
+    <text x="726" y="462" style="font-size:17px">Regional + Channel</text>
+  </g>
+
+  <text x="450" y="525" class="sm" style="font-size:13px">Python · CSV · Power Query · DAX · Synthetic Sri Lankan retail data</text>
+  <g class="pkt">
+    <circle r="4" style="fill:var(--core);color:var(--core)"><animateMotion dur="1.8s" repeatCount="indefinite" path="M286 142H330"/></circle>
+    <circle r="4" style="fill:var(--svc);color:var(--svc)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M570 142H614"/></circle>
+    <circle r="4" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="2.8s" repeatCount="indefinite" path="M166 174V272"/></circle>
+    <circle r="4" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="1.8s" repeatCount="indefinite" path="M286 297H330"/></circle>
+    <circle r="4" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M570 297H614"/></circle>
+    <circle r="4" style="fill:var(--ext);color:var(--ext)"><animateMotion dur="2.6s" repeatCount="indefinite" path="M734 322V390"/></circle>
+  </g>
+</svg>
