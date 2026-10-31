@@ -1,14 +1,14 @@
 # Profile Snapshot
 
-Generated: **2026-10-31T02:04:36.378389+00:00**
+Generated: **2026-10-31T02:13:13.414614+00:00**
 
 | Item | Value |
 |---|---:|
-| README size | 13220 bytes |
+| README size | 12241 bytes |
 | Configured workflows | 6 |
-| Workflow files | 12 |
+| Workflow files | 13 |
 | Dynamic markers | 0 |
-| Local SVG assets | 16 |
+| Local SVG assets | 18 |
 
 ## Workflow inventory
 
@@ -27,6 +27,8 @@ Generated: **2026-10-31T02:04:36.378389+00:00**
 - `assets/banner-animated.svg`
 - `assets/divider.svg`
 - `assets/engineering-matrix.svg`
+- `assets/github-languages.svg`
+- `assets/github-stats.svg`
 - `assets/portfolio-roadmap.svg`
 - `assets/profile-banner.svg`
 - `assets/profile-layers.svg`

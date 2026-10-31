@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-31T02:04:36.378389+00:00",
+  "generated_at": "2026-10-31T02:13:13.414614+00:00",
   "username": "Sachith-Asmadala",
   "display_name": "Sachith Asmadala",
   "headline": "Computer Science Undergraduate | Seeking a Software Engineering Internship",
-  "readme_bytes": 13220,
+  "readme_bytes": 12241,
   "configured_workflows": 6,
   "workflow_files": [
     ".github/workflows/ai-generated-ci.yml",
@@ -12,6 +12,7 @@
     ".github/workflows/generate-profile-assets.yml",
     ".github/workflows/profile-snapshot.yml",
     ".github/workflows/readme-lint.yml",
+    ".github/workflows/refresh-github-stats.yml",
     ".github/workflows/release-profile-package.yml",
     ".github/workflows/snake.yml",
     ".github/workflows/test-profile-automation.yml",
@@ -37,6 +38,8 @@
     "assets/banner-animated.svg",
     "assets/divider.svg",
     "assets/engineering-matrix.svg",
+    "assets/github-languages.svg",
+    "assets/github-stats.svg",
     "assets/portfolio-roadmap.svg",
     "assets/profile-banner.svg",
     "assets/profile-layers.svg",
@@ -51,10 +54,10 @@
     "assets/sachith-profile-banner.svg"
   ],
   "featured_repositories": [
-    "LibraCore",
+    "researchtrack-web",
+    "Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI",
     "Knowledge-Studio",
-    "TaskLang",
-    "Distributed_Systems_Group_30"
+    "Retail-Sales-Business-Performance-Dashboard"
   ],
   "quality_gates": []
 }
