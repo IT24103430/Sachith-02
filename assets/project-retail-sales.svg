@@ -1,93 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-labelledby="t d">
-  <title id="t">Retail Sales Analytics · Data Flow</title>
-  <desc id="d">Python generates 5,000 synthetic retail order lines, profiles CSV quality, and calculates business insights in Sri Lankan rupees. Power Query, a star-schema design, DAX measures, and three report page specifications are prepared. Power BI Desktop model assembly, rendering, and verification are pending.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Retail Sales Analytics · From data to decisions</title>
+  <desc id="desc">Synthetic retail CSVs feed two branches. Completed Python work checks data quality and calculates business insights. Prepared BI assets include Power Query, a star-schema design, DAX measures, and three report page specifications. Power BI Desktop build and verification are pending.</desc>
   <defs>
-    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+    <marker id="blue-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="#58a6ff"/></marker>
+    <marker id="purple-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="#a371f7"/></marker>
     <style>
-      :root{--bg:#0b1120;--card:#111b2e;--stroke:#29364d;--text:#e6edf3;--muted:#a0aec0;--line:#8b949e;
-        --ai:#a371f7;--ai-bg:#241a3d;--svc:#3fb950;--svc-bg:#12281d;--ext:#d29922;--ext-bg:#2e2412;--core:#58a6ff;--core-bg:#102542}
-      text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:15px;fill:var(--text);text-anchor:middle}
-      .bg{fill:var(--bg)}
-      .n{fill:var(--card);stroke:var(--stroke);stroke-width:1.2}
-      .core{fill:var(--core-bg);stroke:var(--core)}
-      .ai{fill:var(--ai-bg);stroke:var(--ai)}
-      .svc{fill:var(--svc-bg);stroke:var(--svc)}
-      .ext{fill:var(--ext-bg);stroke:var(--ext)}
-      .grp{fill:none;stroke-width:1.5;stroke-dasharray:5 4}
-      .ln{fill:none;stroke:var(--line);stroke-width:1.5;marker-end:url(#a)}
-      .dash{stroke-dasharray:5 4}
-      .gl{font-size:12px;font-weight:700;letter-spacing:.1em;text-anchor:start}
-      .ttl{font-size:18px;font-weight:700;text-anchor:start}
-      .sm{font-size:12px;fill:var(--muted)}
-
-      @keyframes flow{to{stroke-dashoffset:-22}}
-      @keyframes march{to{stroke-dashoffset:-18}}
-      @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-      @keyframes glow{0%,100%{opacity:1}50%{opacity:.55}}
-      .ln{stroke-dasharray:6 5;animation:flow 1.1s linear infinite}
-      .grp{animation:march 2.2s linear infinite}
-      .e1{animation:rise .6s ease-out backwards}
-      .e2{animation:rise .6s ease-out .25s backwards}
-      .e3{animation:rise .6s ease-out .5s backwards}
-      .e4{animation:rise .6s ease-out .75s backwards}
-      .e5{animation:rise .6s ease-out 1s backwards}
-      .pulse{animation:glow 2.4s ease-in-out infinite}
-      .pkt{filter:drop-shadow(0 0 3px currentColor)}
-      @media (prefers-reduced-motion:reduce){*{animation:none!important}.pkt{display:none}}
+      text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#e6edf3}
+      .title{font-size:24px;font-weight:700}
+      .label{font-size:18px;font-weight:600}
+      .node{font-size:23px;font-weight:600;text-anchor:middle}
+      .detail{font-size:17px;fill:#a0aec0;text-anchor:middle}
+      .badge{font-size:13px;font-weight:700;letter-spacing:1px;text-anchor:middle}
+      .flow{fill:none;stroke:#58a6ff;stroke-width:2;marker-end:url(#blue-arrow)}
+      .planned{fill:none;stroke:#a371f7;stroke-width:2;stroke-dasharray:6 5;marker-end:url(#purple-arrow)}
+      @media(prefers-reduced-motion:reduce){.packet{display:none}}
     </style>
   </defs>
-  <rect class="bg" width="900" height="540" rx="12"/>
-  <text x="30" y="36" class="ttl">Retail Sales Analytics · Data Flow</text>
+  <rect width="900" height="540" rx="12" fill="#0b1120"/>
+  <text x="30" y="38" class="title">Retail Sales Analytics</text>
+  <text x="870" y="36" text-anchor="end" font-size="15" fill="#a0aec0">DATA → INSIGHTS → REPORT DESIGN</text>
 
-  <g class="e1">
-    <rect class="grp core" x="30" y="58" width="840" height="142" rx="12"/>
-    <text x="46" y="83" class="gl" style="fill:var(--core);font-size:14px">REPRODUCIBLE PYTHON ANALYSIS</text>
-    <rect class="n core" x="46" y="110" width="240" height="64" rx="8"/>
-    <text x="166" y="138" style="font-size:17px">Synthetic Retail CSVs</text>
-    <text x="166" y="160" class="sm" style="font-size:14px">5,000 lines · 2,453 orders</text>
-    <rect class="n core" x="330" y="110" width="240" height="64" rx="8"/>
-    <text x="450" y="138" style="font-size:17px">Data Quality Profile</text>
-    <text x="450" y="160" class="sm" style="font-size:14px">Missing values + key checks</text>
-    <rect class="n svc" x="614" y="110" width="240" height="64" rx="8"/>
-    <text x="734" y="138" style="font-size:17px">Calculated Insights</text>
-    <text x="734" y="160" class="sm" style="font-size:14px">Revenue · Profit · LKR</text>
-    <path class="ln" d="M286 142H330"/>
-    <path class="ln" d="M570 142H614"/>
+  <!-- One source, two honest branches: executed analysis and prepared BI assets. -->
+  <rect x="218" y="66" width="464" height="80" rx="12" fill="#102542" stroke="#58a6ff" stroke-width="1.5"/>
+  <g transform="translate(242 86)" fill="none" stroke="#58a6ff" stroke-width="2">
+    <ellipse cx="16" cy="5" rx="16" ry="5"/>
+    <path d="M0 5v27c0 7 32 7 32 0V5M0 18c0 7 32 7 32 0"/>
   </g>
+  <text x="478" y="98" class="node">Synthetic retail CSVs</text>
+  <text x="478" y="125" class="detail">5,000 order lines · 9 regions · 4 channels</text>
+  <path class="flow" d="M450 146V168H232V188"/>
+  <path class="planned" d="M450 168H668V188"/>
+  <circle cx="450" cy="168" r="4" fill="#58a6ff"/>
 
-  <path class="ln" d="M166 174V272"/>
-  <g class="e2">
-    <rect class="grp ai" x="30" y="230" width="840" height="110" rx="12"/>
-    <text x="46" y="255" class="gl" style="fill:var(--ai);font-size:14px">PREPARED BI ASSETS · DESKTOP TESTING PENDING</text>
-    <rect class="n ai" x="46" y="272" width="240" height="50" rx="8"/>
-    <text x="166" y="303" style="font-size:17px">Power Query M</text>
-    <rect class="n ai" x="330" y="272" width="240" height="50" rx="8"/>
-    <text x="450" y="303" style="font-size:17px">Star-Schema Design</text>
-    <rect class="n ai" x="614" y="272" width="240" height="50" rx="8"/>
-    <text x="734" y="303" style="font-size:17px">DAX Measures</text>
-    <path class="ln" d="M286 297H330"/>
-    <path class="ln" d="M570 297H614"/>
-  </g>
+  <rect x="28" y="190" width="408" height="318" rx="14" fill="#0e1828" stroke="#29364d"/>
+  <text x="48" y="219" class="label" style="fill:#58a6ff">PYTHON ANALYSIS</text>
+  <rect x="316" y="202" width="100" height="24" rx="12" fill="#12281d"/>
+  <text x="366" y="219" class="badge" style="fill:#3fb950">COMPLETE</text>
+  <rect x="48" y="240" width="368" height="70" rx="10" fill="#102542" stroke="#58a6ff"/>
+  <text x="232" y="269" class="node">Data quality checks</text>
+  <text x="232" y="294" class="detail">Missing values · Keys · Consistency</text>
+  <path class="flow" d="M232 310V338"/>
+  <rect x="48" y="340" width="368" height="76" rx="10" fill="#12281d" stroke="#3fb950"/>
+  <text x="232" y="370" class="node">Calculated business insights</text>
+  <text x="232" y="397" class="detail">Revenue · Profit · Products · Regions</text>
+  <text x="232" y="455" class="detail" style="fill:#3fb950">Reproducible analysis in Python</text>
+  <text x="232" y="481" class="detail">Synthetic results · Values in LKR</text>
 
-  <path class="ln" d="M734 322V390"/>
-  <g class="e3">
-    <rect class="grp ext" x="30" y="390" width="840" height="110" rx="12"/>
-    <text x="46" y="415" class="gl" style="fill:var(--ext);font-size:14px">PLANNED POWER BI REPORT · BUILD + VERIFICATION PENDING</text>
-    <rect class="n ext" x="46" y="430" width="256" height="52" rx="8"/>
-    <text x="174" y="462" style="font-size:17px">Executive Overview</text>
-    <rect class="n ext" x="322" y="430" width="256" height="52" rx="8"/>
-    <text x="450" y="462" style="font-size:17px">Product Performance</text>
-    <rect class="n ext" x="598" y="430" width="256" height="52" rx="8"/>
-    <text x="726" y="462" style="font-size:17px">Regional + Channel</text>
-  </g>
+  <rect x="464" y="190" width="408" height="318" rx="14" fill="#0e1828" stroke="#29364d"/>
+  <text x="484" y="219" class="label" style="fill:#a371f7">BI REPORT DESIGN</text>
+  <rect x="750" y="202" width="102" height="24" rx="12" fill="#241a3d"/>
+  <text x="801" y="219" class="badge" style="fill:#bc9af9">PREPARED</text>
+  <rect x="484" y="240" width="368" height="70" rx="10" fill="#241a3d" stroke="#a371f7"/>
+  <text x="668" y="269" class="node">Power Query + Star schema</text>
+  <text x="668" y="294" class="detail">M scripts · Fact + dimension design</text>
+  <path class="planned" d="M668 310V338"/>
+  <rect x="484" y="340" width="368" height="76" rx="10" fill="#241a3d" stroke="#a371f7"/>
+  <text x="668" y="370" class="node">DAX + Report specifications</text>
+  <text x="668" y="397" class="detail">Executive · Product · Region/channel</text>
+  <rect x="484" y="438" width="368" height="48" rx="9" fill="#2e2412"/>
+  <circle cx="505" cy="462" r="4" fill="#d29922"/>
+  <text x="675" y="468" class="detail" style="fill:#e3b341">Power BI Desktop build pending</text>
 
-  <text x="450" y="525" class="sm" style="font-size:13px">Python · CSV · Power Query · DAX · Synthetic Sri Lankan retail data</text>
-  <g class="pkt">
-    <circle r="4" style="fill:var(--core);color:var(--core)"><animateMotion dur="1.8s" repeatCount="indefinite" path="M286 142H330"/></circle>
-    <circle r="4" style="fill:var(--svc);color:var(--svc)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M570 142H614"/></circle>
-    <circle r="4" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="2.8s" repeatCount="indefinite" path="M166 174V272"/></circle>
-    <circle r="4" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="1.8s" repeatCount="indefinite" path="M286 297H330"/></circle>
-    <circle r="4" style="fill:var(--ai);color:var(--ai)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M570 297H614"/></circle>
-    <circle r="4" style="fill:var(--ext);color:var(--ext)"><animateMotion dur="2.6s" repeatCount="indefinite" path="M734 322V390"/></circle>
+  <g class="packet" fill="#58a6ff">
+    <circle r="4"><animateMotion dur="3.5s" repeatCount="indefinite" path="M450 146V168H232V188"/></circle>
+    <circle r="3"><animateMotion dur="1.6s" repeatCount="indefinite" path="M232 310V338"/></circle>
   </g>
 </svg>

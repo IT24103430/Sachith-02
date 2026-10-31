@@ -5,6 +5,17 @@ The current profile uses a concise, manually maintained README. In
 fetching GitHub data or appending generated sections. README lint and health
 checks validate the static profile sections instead of requiring dynamic markers.
 
+The GitHub Activity statistics and language cards are stored locally as
+`assets/github-stats.svg` and `assets/github-languages.svg`. The **Refresh GitHub
+Stats** workflow refreshes them every six hours from GitHub's public API, independently
+of static README mode. Run it manually from Actions or run
+`python .github/scripts/generate_github_stats.py` locally. In Actions it uses the
+built-in `github.token`; no extra secret or image hosting deployment is required.
+If GitHub's API fails, the existing images stay available. Stars, forks, and
+language bytes exclude forked repositories; repository and follower counts come
+from the public user profile. Private activity is not included. The separate
+streak and contribution-snake images keep their existing sources.
+
 Run `python .github/scripts/readme_lint.py`,
 `python .github/scripts/profile_health_check.py --check-only`, and
 `python -m unittest discover -s tests -v` after editing.

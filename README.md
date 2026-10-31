@@ -72,7 +72,7 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 ## Featured Engineering Projects
 
-<sub>Five projects across DevOps, software engineering, AI/ML, and data analytics. Animated diagrams show each project's architecture and data flow.</sub>
+<sub>Four projects across DevOps, software engineering, AI/ML, and data analytics. Animated diagrams show each project's architecture and data flow.</sub>
 
 <table>
   <tr>
@@ -103,24 +103,13 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
       <a href="https://github.com/Sachith-Asmadala/Knowledge-Studio"><b>View repository ↗</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>📚 LibraCore</h3>
-      <sub>Software Engineering · DevOps</sub>
-      <a href="https://github.com/Sachith-Asmadala/LibraCore"><img src="assets/project-libracore.svg" alt="Animated LibraCore architecture: REST requests, JWT role security, catalog and circulation services, native C/JNI ISBN validation, and MySQL with Flyway migrations" width="100%"/></a>
-      <p>A library and asset management API with catalog search, circulation workflows, JWT role security, and ISBN validation through a native C/JNI module. Uses Flyway database migrations and Docker Compose for the application stack.</p>
-      <p><code>Java 21</code> <code>Spring Boot 3</code> <code>MySQL</code> <code>Flyway</code> <code>C / JNI</code> <code>Docker</code></p>
-      <a href="https://github.com/Sachith-Asmadala/LibraCore"><b>View repository ↗</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3>📊 Retail Sales Analytics</h3>
       <sub>Data Analytics · Business Intelligence</sub>
-      <a href="https://github.com/Sachith-Asmadala/Retail-Sales-Business-Performance-Dashboard"><img src="assets/project-retail-sales.svg" alt="Animated Retail Sales Analytics workflow: Python generates and profiles synthetic retail CSVs and calculates business insights; prepared Power Query, star-schema, and DAX assets support a planned Power BI report awaiting Desktop implementation" width="100%"/></a>
+      <a href="https://github.com/Sachith-Asmadala/Retail-Sales-Business-Performance-Dashboard"><img src="assets/project-retail-sales.svg" alt="Retail Sales Analytics workflow: synthetic CSV data branches into completed Python quality checks and calculated insights, and prepared Power Query, star-schema, and DAX assets for a planned three-page Power BI report" width="100%"/></a>
       <p>A Sri Lankan retail analytics project using 5,000 synthetic order lines to calculate sales, profit, product, and regional/channel insights in LKR. Includes reproducible Python analysis, prepared Power Query and DAX assets, and a star-schema design with three report page specifications. Power BI Desktop implementation and verification are pending.</p>
       <p><code>Python</code> <code>CSV</code> <code>Power Query</code> <code>DAX</code> <code>Power BI (planned)</code></p>
       <a href="https://github.com/Sachith-Asmadala/Retail-Sales-Business-Performance-Dashboard"><b>View repository ↗</b></a>
     </td>
-    <td width="50%" aria-hidden="true"></td>
   </tr>
 </table>
 
@@ -130,8 +119,8 @@ Hi, I’m Sachith — a third-year Computer Science undergraduate at the Sri Lan
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sachith-Asmadala&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&count_private=true" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-Asmadala&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages"/>
+<a href="https://github.com/Sachith-Asmadala?tab=repositories"><img height="170" src="assets/github-stats.svg" alt="GitHub public statistics: repositories, stars, forks, and followers"/></a>
+<a href="https://github.com/Sachith-Asmadala?tab=repositories"><img height="170" src="assets/github-languages.svg" alt="Top languages by code bytes across public, non-fork repositories"/></a>
 
 <img src="https://streak-stats.demolab.com?user=Sachith-Asmadala&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub streak" width="80%"/>
 

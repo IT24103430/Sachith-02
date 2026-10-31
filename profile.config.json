@@ -12,10 +12,10 @@
     "Distributed systems, messaging, and fault-tolerant architecture"
   ],
   "featured_repositories": [
-    "LibraCore",
+    "researchtrack-web",
+    "Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI",
     "Knowledge-Studio",
-    "TaskLang",
-    "Distributed_Systems_Group_30"
+    "Retail-Sales-Business-Performance-Dashboard"
   ],
   "exclude_repositories": [
     "Sachith-02",
