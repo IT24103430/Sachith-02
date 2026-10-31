@@ -4,13 +4,9 @@ on:
   schedule:
     - cron: "45 2 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - README.md
-      - profile.config.json
-      - .github/workflows/**
-      - .github/scripts/profile_snapshot.py
+  # The main profile workflow already refreshes snapshots on README/config/script
+  # pushes. Keep this dedicated workflow for scheduled and manual snapshots so
+  # two jobs do not commit the same generated files for a single profile change.
 
 permissions:
   contents: write
